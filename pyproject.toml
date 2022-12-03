@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "deep_learning"
+version = "0.1.0"
+description = ""
+authors = ["Raoul Grouls <raoul.grouls@businessdecision.nl>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+loguru = "^0.6.0"
+pandas = "^1.4.0"
+matplotlib = "^3.5.1"
+seaborn = "^0.11.2"
+plotly = "^5.5.0"
+scikit-learn = "^1.0.2"
+
+#torch = "^1.12"
+#torchvision = "^0.12"
+#torchtext = "^0.12.0"
+#torch-tb-profiler = "^0.4.0"
+
+gin-config = "^0.5.0"
+pydantic = "^1.9.0"
+#bayesian-optimization = "^1.2.0"
+#hpbandster = "^0.7.4"
+#ConfigSpace = "^0.5.0"
+#torchdata = "^0.3.0"
+tqdm = "^4.64.1"
+torchvision = "^0.14.0"
+ray = {extras = ["tune"], version = "^2.1.0"}
+tensorflow = "^2.11.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+flake8 = "^4.0.1"
+isort = "^5.10.1"
+mypy = "^0.931"
+pytest = "^7.0.0"
+pep8-naming = "^0.12.1"
+flake8-annotations = "^2.7.0"
+jupyter = "^1.0.0"
+nbformat = "^5.3.0"
+importlib-resources = "^5.7.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
