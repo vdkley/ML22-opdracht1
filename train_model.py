@@ -59,11 +59,8 @@ def run_trainloop(presets: Settings) -> None:
     print(model)
 
 
-
-
     count_parameters = train_model.count_parameters(model)
     logger.info(f"Model parameters {count_parameters}")
-
 
     import torch.optim as optim
     from src.models import metrics
@@ -77,7 +74,13 @@ def run_trainloop(presets: Settings) -> None:
     logger.info(f"Start Accuracy {accuracy_log}")
 
 
+
+
     for optimizer_name, optimizer_algorithm in presets.test_optimizers.items():
+
+        # new model for every optimizer test
+        model = CNN().to(device)
+
         log_dir = "log/" + str(optimizer_name) + "/"
         model = train_model.trainloop(
             epochs=10,
