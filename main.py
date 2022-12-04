@@ -3,6 +3,7 @@ import optimizer_test
 import learningrate_test
 import filtertest
 import kernelsizetest
+import experiments
 from loguru import logger
 from settings import Settings
 
@@ -10,7 +11,8 @@ logger.add("logging.log")
 
 @click.command()
 @click.option("--task")
-def main(task: str) -> None:
+@click.option("--name")
+def main(task: str, name: str) -> None:
     presets = Settings()
     
     if task == None:
@@ -25,8 +27,10 @@ def main(task: str) -> None:
         filtertest.run_trainloop(presets)
     if task == "ksize":
         kernelsizetest.run_trainloop(presets)
-        
-
+    if task == "exp" and name == None:
+        print('start experiment by giving a name --name=')
+    if task == "exp" and name != None:
+        experiments.run_experiment(presets,name)        
 
 if __name__ == "__main__":
     main()
