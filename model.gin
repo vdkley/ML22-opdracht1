@@ -9,4 +9,3 @@ trainloop.epochs = 10
 trainloop.learning_rate = 1e-3
 trainloop.optimizer = @Adam
 trainloop.loss_fn = @CrossEntropyLoss()
-trainloop.log_dir = "../../models/gtest/"

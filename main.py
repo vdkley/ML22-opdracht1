@@ -1,5 +1,6 @@
 import click
 import optimizer_test
+import learningrate_test
 from loguru import logger
 from settings import Settings
 
@@ -16,6 +17,9 @@ def main(task: str) -> None:
         logger.info(f"starting {task}")
     if task == "optimtest":
         optimizer_test.run_trainloop(presets)
+    if task == "lrtest":
+        learningrate_test.run_trainloop(presets)
+        
 
 
 if __name__ == "__main__":
