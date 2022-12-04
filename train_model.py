@@ -55,7 +55,7 @@ def run_trainloop(presets: Settings) -> None:
             logits = self.dense(x)
             return logits
 
-    model = CNN2().to(device)
+    model = CNN().to(device)
     print(model)
 
 
@@ -76,16 +76,24 @@ def run_trainloop(presets: Settings) -> None:
 
     logger.info(f"Start Accuracy {accuracy_log}")
 
-    model = train_model.trainloop(
-        epochs=10,
-        model=model,
-        optimizer=optimizer,
-        learning_rate=1e-3,
-        loss_fn=loss_fn,
-        metrics=[accuracy],
-        train_dataloader=train_dataloader,
-        test_dataloader=test_dataloader,
-        log_dir="log/",
-        train_steps=len(train_dataloader),
-        eval_steps=len(test_dataloader),
-    )
+
+    for optimizer_name, optimizer_algorithm in presets.test_optimizers.items():
+        log_dir = "log/" + str(optimizer_name) + "/"
+        model = train_model.trainloop(
+            epochs=10,
+            model=model,
+            optimizer=optimizer_algorithm,
+            learning_rate=1e-3,
+            loss_fn=loss_fn,
+            metrics=[accuracy],
+            train_dataloader=train_dataloader,
+            test_dataloader=test_dataloader,
+            log_dir=log_dir,
+            train_steps=len(train_dataloader),
+            eval_steps=len(test_dataloader),
+        )
+
+    logger.info(f"Klaar, start tensorboard met commando: tensorboard --logdir={log_dir}")
+
+    # commando starten tensorboard
+    # tensorboard --logdir=log
