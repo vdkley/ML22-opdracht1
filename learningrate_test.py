@@ -10,10 +10,11 @@ from settings import Settings
 import torch
 from torch import nn
 from loguru import logger
+import gin
 
 def run_trainloop(presets: Settings) -> None:
     """
-    Run een trainmodddel in een loop met verschillende parameters 
+    Run een trainmodel in een loop met verschillende parameters 
     """
  
     datadir = Path("data/raw/")
@@ -72,9 +73,6 @@ def run_trainloop(presets: Settings) -> None:
     accuracy_log = accuracy(y, yhat)
 
     logger.info(f"Start Accuracy {accuracy_log}")
-
-
-
 
     for optimizer_name, optimizer_algorithm in presets.test_optimizers.items():
 

@@ -10,6 +10,9 @@ class Settings(BaseModel):
 
     # Oprimizers explained: https://www.educba.com/pytorch-optimizer/
     test_optimizers: Dict = {
+        'Adamax' : optim.Adamax
+    }
+    test_optimizer2: Dict = {
         'AdamW' : optim.AdamW,
         'SGD' : optim.SGD,
         'RMSprop' : optim.RMSprop,
