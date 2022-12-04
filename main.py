@@ -1,6 +1,8 @@
 import click
 import optimizer_test
 import learningrate_test
+import filtertest
+import kernelsizetest
 from loguru import logger
 from settings import Settings
 
@@ -19,6 +21,10 @@ def main(task: str) -> None:
         optimizer_test.run_trainloop(presets)
     if task == "lrtest":
         learningrate_test.run_trainloop(presets)
+    if task == "filtertest":
+        filtertest.run_trainloop(presets)
+    if task == "ksize":
+        kernelsizetest.run_trainloop(presets)
         
 
 

@@ -24,15 +24,16 @@ def run_trainloop(presets: Settings) -> None:
     accuracy = metrics.Accuracy()
     gin.parse_config_file("model.gin")
 
-    for lr in presets.test_learning_rates:
+    for filters_description, filters in presets.test_filters.items():
 
         # change learning rate 
-        gin.bind_parameter("trainloop.learning_rate", lr)
+        gin.bind_parameter("CNN.filter1", filters['filter1'])
+        gin.bind_parameter("CNN.filter2", filters['filter2'])
 
         # new model for every test
         model = imagemodels.CNN().to(device)
 
-        log_dir = "log/learningrates/"
+        log_dir = "log/" + str(filters_description) + "/"
         model = train_model.trainloop(
             model=model,
             metrics=[accuracy],

@@ -24,15 +24,15 @@ def run_trainloop(presets: Settings) -> None:
     accuracy = metrics.Accuracy()
     gin.parse_config_file("model.gin")
 
-    for lr in presets.test_learning_rates:
+    for kernel_size in presets.test_kernal_sizes:
 
         # change learning rate 
-        gin.bind_parameter("trainloop.learning_rate", lr)
+        gin.bind_parameter("CNN.kernel_size", kernel_size)
 
         # new model for every test
         model = imagemodels.CNN().to(device)
 
-        log_dir = "log/learningrates/"
+        log_dir = "log/kernals/ksize-" + str(kernel_size) + "/"
         model = train_model.trainloop(
             model=model,
             metrics=[accuracy],

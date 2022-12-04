@@ -15,6 +15,10 @@ class Settings(BaseModel):
         'RMSprop' : optim.RMSprop,
         'Adam' : optim.Adam
     }
-
-    test_units = [512, 256, 128]
+    test_filters: Dict = {
+        'F128F64' : {'filter1' : 128, 'filter2': 64},
+        'F64F128' : {'filter1' : 64, 'filter2': 128},
+        'F16F64' : {'filter1' : 16, 'filter2': 64},
+    }
     test_learning_rates = [0.01, 0.001, 0.0001]
+    test_kernal_sizes = [2]
