@@ -9,7 +9,7 @@ class Settings(BaseModel):
     test_path: Path = Path("/path")
 
     # Oprimizers explained: https://www.educba.com/pytorch-optimizer/
-    test_optimizer: Dict = {
+    test_optimizers: Dict = {
         'AdamW' : optim.AdamW,
         'SGD' : optim.SGD,
         'RMSprop' : optim.RMSprop,
