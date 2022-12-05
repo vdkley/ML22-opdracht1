@@ -1,0 +1,15 @@
+import gin.torch.external_configurables
+
+# Parameters for CNN:
+# ==============================================================================
+CNN.filter1 = 128
+CNN.filter2 = 64
+CNN.kernel_size = 3
+CNN.num_classes = 10
+
+# Parameters for trainloop:
+# ==============================================================================
+trainloop.epochs = 10
+trainloop.learning_rate = 0.001
+trainloop.loss_fn = @CrossEntropyLoss()
+trainloop.optimizer = @Adam
