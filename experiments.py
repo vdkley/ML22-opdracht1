@@ -39,7 +39,7 @@ def run_experiment(presets: Settings,name: str) -> None:
     log_dir_base_exp = "log/" + str(name)
 
     gin.parse_config_file("model.gin")
-    for optimizer_name, optimizer_algorithm in presets.test_optimizer.items():
+    for optimizer_name, optimizer_algorithm in presets.test_optimizers.items():
         log_dir = log_dir_base_exp + "/optimizers/" + str(optimizer_name) + "/"
         gin.bind_parameter("trainloop.optimizer", optimizer_algorithm)
         run_model(log_dir)  

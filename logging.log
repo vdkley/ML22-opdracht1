@@ -433,3 +433,7 @@
 2022-12-04 17:58:21.422 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 0.3425 test 0.3823 metric ['0.8636']
 2022-12-04 17:58:45.489 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 0.3291 test 0.3684 metric ['0.8672']
 2022-12-04 17:58:45.491 | INFO     | experiments:run_experiment:67 - Klaar, start tensorboard met commando: tensorboard --logdir=log/experiment1
+2022-12-05 16:02:48.356 | INFO     | __main__:main:21 - starting exp
+2022-12-05 16:03:14.885 | INFO     | __main__:main:21 - starting exp
+2022-12-05 16:04:37.149 | INFO     | __main__:main:21 - starting exp
+2022-12-05 16:04:42.377 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/experiment2/optimizers/AdamW/20221205-1604
