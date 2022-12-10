@@ -42,6 +42,25 @@ class Settings(BaseModel):
             '1E-4' : 0.0001,
         },
         'kernal_sizes' : {
-            'KS2' : 2
+            'KS2' : 2,
+            'KS2' : 3
+        }
+    }
+
+    experiment_parameters_combinations: Dict = {
+        'trainloop.optimizer' : {
+            'AdamW' : optim.AdamW,
+            'SGD' : optim.SGD,
+            'RMSprop' : optim.RMSprop,
+            'Adam' : optim.Adam
+        },
+        'trainloop.learning_rate' : {
+            '1E-2' : 0.01,
+            '1E-3' : 0.001,
+            '1E-4' : 0.0001,
+        },
+        'CNN.kernel_size' : {
+            'KS2' : 2,
+            'KS2' : 3
         }
     }

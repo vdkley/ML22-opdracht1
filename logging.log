@@ -437,3 +437,18 @@
 2022-12-05 16:03:14.885 | INFO     | __main__:main:21 - starting exp
 2022-12-05 16:04:37.149 | INFO     | __main__:main:21 - starting exp
 2022-12-05 16:04:42.377 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/experiment2/optimizers/AdamW/20221205-1604
+2022-12-06 13:29:54.997 | INFO     | __main__:main:22 - starting exp2
+2022-12-06 13:30:36.418 | INFO     | __main__:main:22 - starting exp2
+2022-12-06 13:33:43.163 | INFO     | __main__:main:22 - starting exp2
+2022-12-06 13:50:03.008 | INFO     | __main__:main:22 - starting exp2
+2022-12-06 13:50:29.112 | INFO     | __main__:main:22 - starting exp2
+2022-12-06 13:56:32.574 | INFO     | __main__:main:22 - starting exp2
+2022-12-06 13:58:19.921 | INFO     | __main__:main:22 - starting exp2
+2022-12-06 14:00:54.648 | INFO     | __main__:main:22 - starting exp2
+2022-12-06 14:02:09.430 | INFO     | __main__:main:22 - starting exp2
+2022-12-06 20:37:15.944 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221206-2037
+2022-12-06 20:38:18.291 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221206-2038
+2022-12-10 11:40:31.543 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221210-1140
+2022-12-10 11:43:01.454 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221210-1143
+2022-12-10 11:44:15.321 | INFO     | __main__:main:24 - starting exp
+2022-12-10 11:44:15.478 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/experiment2/optimizers/AdamW/20221210-1144
