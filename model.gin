@@ -5,7 +5,7 @@ CNN.kernel_size = 3
 CNN.filter1 = 32
 CNN.filter2 = 32
 
-trainloop.epochs = 10
+trainloop.epochs = 3
 trainloop.learning_rate = 1e-3
 trainloop.optimizer = @Adam
 trainloop.loss_fn = @CrossEntropyLoss()

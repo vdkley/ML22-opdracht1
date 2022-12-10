@@ -452,3 +452,23 @@
 2022-12-10 11:43:01.454 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221210-1143
 2022-12-10 11:44:15.321 | INFO     | __main__:main:24 - starting exp
 2022-12-10 11:44:15.478 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/experiment2/optimizers/AdamW/20221210-1144
+2022-12-10 13:59:09.667 | INFO     | __main__:main:25 - starting resnet
+2022-12-10 13:59:10.288 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221210-1359
+2022-12-10 14:01:04.564 | INFO     | __main__:main:25 - starting resnet
+2022-12-10 14:01:05.311 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221210-1401
+2022-12-10 14:06:18.916 | INFO     | __main__:main:25 - starting resnet
+2022-12-10 14:06:19.284 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221210-1406
+2022-12-10 14:18:34.772 | INFO     | __main__:main:25 - starting resnet
+2022-12-10 14:18:35.228 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221210-1418
+2022-12-10 14:20:01.433 | INFO     | __main__:main:25 - starting resnet
+2022-12-10 14:20:01.843 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221210-1420
+2022-12-10 14:31:06.518 | INFO     | __main__:main:25 - starting resnet
+2022-12-10 14:31:06.727 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221210-1431
+2022-12-10 14:33:43.712 | INFO     | __main__:main:25 - starting resnet
+2022-12-10 14:33:44.097 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221210-1433
+2022-12-10 14:34:17.569 | INFO     | __main__:main:25 - starting resnet
+2022-12-10 14:34:17.761 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221210-1434
+2022-12-10 14:49:16.687 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 0.4170 test 0.3752 metric ['0.8681']
+2022-12-10 15:03:51.164 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.2955 test 0.3212 metric ['0.8801']
+2022-12-10 15:18:29.775 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.2563 test 0.3345 metric ['0.8845']
+2022-12-10 15:18:29.777 | INFO     | resnet_test:run_trainloop:47 - Klaar, start tensorboard met commando: tensorboard --logdir=log/learningrates/

@@ -5,6 +5,7 @@ import filtertest
 import kernelsizetest
 import experiments
 import experiments_combine
+import resnet_test
 from loguru import logger
 from settings import Settings
 
@@ -36,7 +37,8 @@ def main(task: str, name: str) -> None:
         experiments.run_experiment(presets,name)
     if task == "exp2":
         experiments_combine.run_experiment(presets)
-                        
+    if task == "resnet":
+        resnet_test.run_trainloop(presets)                     
 
 if __name__ == "__main__":
     main()
