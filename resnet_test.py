@@ -33,7 +33,7 @@ def run_trainloop(presets: Settings) -> None:
     #model = resnet_model.CNN().to(device)
     model = resnet_model.ResNet(1, resnet_model.ResBlock, [2, 2, 2, 2], useBottleneck=False, outputs=10).to(device)
 
-    log_dir = "log/learningrates/"
+    log_dir = "log/ResNet/"
     model = train_model.trainloop(
         model=model,
         metrics=[accuracy],
