@@ -15,6 +15,7 @@ from torch.optim import Optimizer
 from torch.utils.data import DataLoader
 from torch.utils.tensorboard import SummaryWriter
 from torchvision.utils import make_grid
+from torchinfo import summary
 from tqdm import tqdm
 
 from src.data import data_tools
@@ -24,6 +25,12 @@ from src.typehinting import GenericModel
 
 def write_gin(dir: Path, txt) -> None:
     path = dir / "saved_config.gin"
+    with open(path, "w") as file:
+        file.write(txt)
+
+
+def write_model_summary(dir: Path, txt) -> None:
+    path = dir / "model_summary.txt"
     with open(path, "w") as file:
         file.write(txt)
 
@@ -135,6 +142,11 @@ def trainloop(
         log_dir = data_tools.dir_add_timestamp(log_dir)
         writer = SummaryWriter(log_dir=log_dir)
         write_gin(log_dir, gin.config_str())
+
+        # model structuur wegschrijven
+        x, y = next(iter(train_dataloader))
+        summary_txt = str(summary(model, input_size=x.size()))
+        write_model_summary(log_dir, summary_txt)
 
         images, _ = next(iter(train_dataloader))
         if len(images.shape) == 4:

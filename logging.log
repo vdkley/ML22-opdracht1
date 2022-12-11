@@ -472,3 +472,21 @@
 2022-12-10 15:03:51.164 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.2955 test 0.3212 metric ['0.8801']
 2022-12-10 15:18:29.775 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.2563 test 0.3345 metric ['0.8845']
 2022-12-10 15:18:29.777 | INFO     | resnet_test:run_trainloop:47 - Klaar, start tensorboard met commando: tensorboard --logdir=log/learningrates/
+2022-12-11 08:24:31.053 | INFO     | __main__:main:25 - starting lrtest
+2022-12-11 08:24:31.823 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221211-0824
+2022-12-11 08:27:47.113 | INFO     | __main__:main:25 - starting lrtest
+2022-12-11 08:27:47.765 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221211-0827
+2022-12-11 08:38:33.929 | INFO     | __main__:main:25 - starting lrtest
+2022-12-11 08:38:34.362 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221211-0838
+2022-12-11 08:38:59.087 | INFO     | __main__:main:25 - starting lrtest
+2022-12-11 08:38:59.302 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221211-0838
+2022-12-11 08:42:24.278 | INFO     | __main__:main:25 - starting lrtest
+2022-12-11 08:42:24.504 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221211-0842
+2022-12-11 08:43:33.598 | INFO     | __main__:main:25 - starting lrtest
+2022-12-11 08:43:33.822 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221211-0843
+2022-12-11 08:44:07.179 | INFO     | __main__:main:25 - starting lrtest
+2022-12-11 08:44:07.422 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221211-0844
+2022-12-11 08:45:03.884 | INFO     | __main__:main:25 - starting lrtest
+2022-12-11 08:45:04.135 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221211-0845
+2022-12-11 08:46:10.203 | INFO     | __main__:main:25 - starting lrtest
+2022-12-11 08:46:10.461 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221211-0846
