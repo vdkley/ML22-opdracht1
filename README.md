@@ -96,7 +96,8 @@ Hieronder de best scorende resultaten van alle combinaties.
 
 ![Top 4 combined results](images/combine_results2.png)
 
-** Opmerkelijk **
+**Opmerkelijk**
+
 Over het algemeen scoren de runs met optimizer SGD niet goed. Opmerkelijk is dat het er op lijkt dat optimizer SGD beter werkt met een hoge learning rate en een simpel model.
 
 ![SDG remarks](images/combine_SGD_remarks.png)
