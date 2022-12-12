@@ -78,3 +78,10 @@ Over het algemeen scoren de runs met optimizer SGD niet goed. Opmerkelijk is dat
 
 ![combined runs results](images/combine_SGD_remarks.png)
 
+
+Je ziet hieronder dat na epoch 9 het model gaat overfitten. AdamW geeft hier de hoogste loss in de test set.
+
+![combined runs results](images/runs_loss_test_loss_train.png)
+
+![combined runs results](images/runs_accuracy.png)
+
