@@ -46,13 +46,13 @@ De drie verschillende modellen bestaan op dit moment uit onderstaande lagen, maa
 - 5 dense lagen
 
 
-Run hierna met onderstaand command autmatisch alle combinaties. Resultaten worden in de /log map geplaatst. Hij maakt binen /log een map aan me de opgegeven naam.
+Run hierna met onderstaand command autmatisch alle combinaties. Resultaten worden in de /log map geplaatst. Hij maakt binnen de /log een map aan me de opgegeven naam.
 
 `
 $poetry run python main.py --task=combine --name=mijn_eigen_experiment_naam
 `
 
-De best scorende resultaten kan je verder testen door in de settings op te geven welke je wilt runnen. Stel gerust zelf andere paramaters in.
+De best scorende resultaten kan je verder testen door in de settings op te geven welke je wilt runnen. Stel gerust zelf andere paramaters in. Zie het voorbeeld hieronder.
 
 ```
     experiments_runs: Dict = {
@@ -110,7 +110,7 @@ Je ziet hieronder dat na epoch 9 het model gaat overfitten. AdamW geeft hier de 
 ![runs accuuracy](images/runs_accuracy.png)
 
 # ResNet testen en resultaten
-Als extra uitdaging hebben we ook nog geprobeerd een ResNet model aan de praat te krijgen en hoopten op een geweldig resultaat. Helaas viel dat wat tegen.
+Als extra uitdaging hebben we ook nog een ResNet model aan de praat gekregen en hoopten op een geweldig resultaat. Helaas viel dat tegen. Waarschijnlijk is deze ResNet architectuur meer geschit voor grotere datasets met en meer labels.
 
 **model ResNet18**
 
