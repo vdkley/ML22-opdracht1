@@ -24,6 +24,30 @@ Geef in settings.py aan welke combinaties je wilt uitproberen. De modellen bouw 
     }
 ```
 
+De drie verschillende modellen bestaan uit:
+**model 1**
+- 3 convolution lagen
+- 16 filters / activation maps
+- 2 dense lagen
+
+**model 2**
+- 3 convolution lagen
+- 32 filters / activation maps
+- 3 dense lagen
+
+**model 3**
+- 3 convolution lagen
+- 128 filters / activation maps
+- 5 dense lagen
+
+**model ResNet18**
+- 1 convolution laag
+- 8 Res blokken met 2 convolution 
+- 512 filters
+
+
+
+
 Run hierna autmatisch alle combinaties. Resultaten worden in de log map geplaatst.
 
 `
