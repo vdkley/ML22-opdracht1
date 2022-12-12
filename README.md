@@ -62,3 +62,15 @@ Start de runs met onderstaand commando:
 `
 $poetry run python main.py --task=runs --name=mijn_eigen_experiment_naam
 `
+
+# Resultaten
+
+Hieronder de best scorende resultaten van alle combinaties. 
+
+Adam 1e-3 model 3
+RMSprop 1e-3 model 3
+AdamW 1e-3 model 3
+
+![combined runs results](images/combine_results2.png)
+
+
