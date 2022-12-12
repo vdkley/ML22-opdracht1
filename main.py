@@ -35,7 +35,7 @@ def main(task: str, name: str) -> None:
         print('start experiment by giving a name --name=')
     if task == "exp" and name != None:
         experiments.run_experiment(presets,name)
-    if task == "exp2":
+    if task == "combine":
         experiments_combine.run_experiment(presets,name)
     if task == "runs":
         experiments_combine.run_experiment_runs(presets,name)
