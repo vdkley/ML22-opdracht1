@@ -74,3 +74,7 @@ AdamW 1e-3 model 3
 ![combined runs results](images/combine_results2.png)
 
 
+Over het algemeen scoren de runs met optimizer SGD niet goed. Opmerkelijk is dat het er op lijkt dat optimizer SGD beter werkt met een hoge learning rate en een simpel model.
+
+![combined runs results](images/combine_SGD_remarks.png)
+
