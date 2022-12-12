@@ -44,14 +44,6 @@ De drie verschillende modellen bestaan uit:
 - 128 filters / activation maps
 - 5 dense lagen
 
-**model ResNet18**
-
-- 1 convolution laag
-- 8 Res blokken met 2 convolution 
-- 512 filters
-
-
-
 
 Run hierna autmatisch alle combinaties. Resultaten worden in de log map geplaatst.
 
@@ -114,7 +106,24 @@ Je ziet hieronder dat na epoch 9 het model gaat overfitten. AdamW geeft hier de 
 
 ![runs accuuracy](images/runs_accuracy.png)
 
-# ResNet testen
+# ResNet testen en resultaten
+
+**model ResNet18**
+
+- 1 convolution laag
+- 8 Res blokken met 2 convolution 
+- 512 filters
+
+Zie de code voor dit model in /src/models/resnet_model.py
+
+Wat opvalt is dat de epoch's per stuk 15 minuten duren door het complexere model. Qua resultaat zie je dat na de eerste epoch het al een hooge accuracy heeft en deze bijna niet meer toe neemt.
+
+![resnet loss](images/resnet_loss.png)
+
+![resnet accuuracy](images/resnet_accuracy.png)
+
+
+
 
 ```
 ==========================================================================================
