@@ -66,10 +66,90 @@ ul.task-list li input[type="checkbox"] {
             'model3' : 'model3',
         }
     }</code></pre>
+<p>De drie verschillende modellen bestaan uit:</p>
+<p><strong>model 1</strong></p>
+<ul>
+<li>3 convolution lagen</li>
+<li>16 filters / activation maps</li>
+<li>2 dense lagen</li>
+</ul>
+<p><strong>model 2</strong></p>
+<ul>
+<li>3 convolution lagen</li>
+<li>32 filters / activation maps</li>
+<li>3 dense lagen</li>
+</ul>
+<p><strong>model 3</strong></p>
+<ul>
+<li>3 convolution lagen</li>
+<li>128 filters / activation maps</li>
+<li>5 dense lagen</li>
+</ul>
+<p><strong>model ResNet18</strong></p>
+<ul>
+<li>1 convolution laag</li>
+<li>8 Res blokken met 2 convolution</li>
+<li>512 filters</li>
+</ul>
 <p>Run hierna autmatisch alle combinaties. Resultaten worden in de log map geplaatst.</p>
 <p><code>$poetry run python main.py --task=combine --name=mijn_eigen_experiment_naam</code></p>
-<p>De best scorende resultaten kan je v</p>
+<p>De best scorende resultaten kan je verder testen door in de settings op te geven welke je wilt runnen.</p>
+<pre><code>    experiments_runs: Dict = {
+        'run1' : {
+            'epochs' : 20,
+            'run_name' : 'Adam_LR-1E-3_model3',
+            'optimizer' : optim.Adam,
+            'learning_rate' : 0.001,
+            'model' : 'model3',
+        },
+        'run2' : {
+            'epochs' : 20,
+            'run_name' : 'RMSprop_LR-1E-3_model3',
+            'optimizer' : optim.RMSprop,
+            'learning_rate' : 0.001,
+            'model' : 'model3',
+        },
+        'run3' : {
+            'epochs' : 20,
+            'run_name' : 'AdamW_LR-1E-3_model3',
+            'optimizer' : optim.AdamW,
+            'learning_rate' : 0.001,
+            'model' : 'model3',
+        }
+    }</code></pre>
+<p>Start de runs met onderstaand commando:</p>
 <p><code>$poetry run python main.py --task=runs --name=mijn_eigen_experiment_naam</code></p>
+</section>
+<section id="resultaten" class="level1">
+<h1>Resultaten</h1>
+<p>Hieronder de best scorende resultaten van alle combinaties.</p>
+<p>Adam 1e-3 model 3 RMSprop 1e-3 model 3 AdamW 1e-3 model 3</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/combine_results2.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Top 4 combined results</figcaption><p></p>
+</figure>
+</div>
+<p>Over het algemeen scoren de runs met optimizer SGD niet goed. Opmerkelijk is dat het er op lijkt dat optimizer SGD beter werkt met een hoge learning rate en een simpel model.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/combine_SGD_remarks.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">SDG remarks</figcaption><p></p>
+</figure>
+</div>
+<p>Je ziet hieronder dat na epoch 9 het model gaat overfitten. AdamW geeft hier de hoogste loss in de test set.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/runs_loss_test_loss_train.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">loss test en loss train</figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/runs_accuracy.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">runs accuuracy</figcaption><p></p>
+</figure>
+</div>
 </section>
 
 </main>
