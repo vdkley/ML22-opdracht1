@@ -119,7 +119,7 @@ Als extra uitdaging hebben we ook nog geprobeerd een ResNet model aan de praat t
 
 Zie de code voor dit model in /src/models/resnet_model.py
 
-Wat opgevallen is, is dat het trainen per epoch's 15 minuten duurt door het complexere model. Qua resultaat zie je dat na de eerste epoch het al een hooge accuracy heeft en deze bijna niet meer toe neemt.
+Wat opgevallen is, is dat het trainen per epoch's 15 minuten duurt vanwege het complexere model met 11 miljoen parameters. Qua resultaat zie je dat na de eerste epoch het al een hoge accuracy heeft en deze bijna niet meer toe neemt.
 
 ![resnet loss](images/resnet_loss.png)
 
