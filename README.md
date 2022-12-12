@@ -1,8 +1,9 @@
 # Experimenten deeplearning convolutional layers op Fashion MNIST
 
+## Hoe de code te gebruiken
 
+Geef in settings.py aan welke combinaties je wilt uitproberen. De modellen (model1, model2, model3) bouw je op in het bestand settings_testmodels.py
 
-Geef in settings.py aan welke combinaties je wilt uitproberen. De modellen bouw je op in het bestand settings_testmodels.py
 ```
     experiment_parameters_combinations: Dict = {
         'trainloop.optimizer' : {
@@ -24,7 +25,7 @@ Geef in settings.py aan welke combinaties je wilt uitproberen. De modellen bouw 
     }
 ```
 
-De drie verschillende modellen bestaan uit:
+De drie verschillende modellen bestaan op dit moment uit onderstaande lagen, maar probeer gerust zelf een andere architectuur. In /notebooks/test_architecture.ipynb hebben we de aansluitingen van de lagen vooraf getest.
 
 **model 1**
 
@@ -45,13 +46,13 @@ De drie verschillende modellen bestaan uit:
 - 5 dense lagen
 
 
-Run hierna autmatisch alle combinaties. Resultaten worden in de log map geplaatst.
+Run hierna met onderstaand command autmatisch alle combinaties. Resultaten worden in de /log map geplaatst. Hij maakt binen /log een map aan me de opgegeven naam.
 
 `
 $poetry run python main.py --task=combine --name=mijn_eigen_experiment_naam
 `
 
-De best scorende resultaten kan je verder testen door in de settings op te geven welke je wilt runnen.
+De best scorende resultaten kan je verder testen door in de settings op te geven welke je wilt runnen. Stel gerust zelf andere paramaters in.
 
 ```
     experiments_runs: Dict = {
@@ -78,6 +79,7 @@ De best scorende resultaten kan je verder testen door in de settings op te geven
         }
     }
 ```
+
 Start de runs met onderstaand commando:
 
 `
@@ -88,25 +90,26 @@ $poetry run python main.py --task=runs --name=mijn_eigen_experiment_naam
 
 Hieronder de best scorende resultaten van alle combinaties. 
 
-Adam 1e-3 model 3
-RMSprop 1e-3 model 3
-AdamW 1e-3 model 3
+1. Optimizer Adam met LR:1e-3 en model 3
+2. Optimizer RMSprop met LR:1e-3 en model 3
+2. Optimizer AdamW met LR:1e-3 en model 3
 
 ![Top 4 combined results](images/combine_results2.png)
 
-
+** Opmerkelijk **
 Over het algemeen scoren de runs met optimizer SGD niet goed. Opmerkelijk is dat het er op lijkt dat optimizer SGD beter werkt met een hoge learning rate en een simpel model.
 
 ![SDG remarks](images/combine_SGD_remarks.png)
 
 
-Je ziet hieronder dat na epoch 9 het model gaat overfitten. AdamW geeft hier de hoogste loss in de test set.
+Je ziet hieronder dat na epoch 9 het model gaat overfitten. AdamW geeft hier de hoogste loss met de test set.
 
 ![loss test en loss train](images/runs_loss_test_loss_train.png)
 
 ![runs accuuracy](images/runs_accuracy.png)
 
 # ResNet testen en resultaten
+Als extra uitdaging hebben we ook nog geprobeerd een ResNet model aan de praat te krijgen en hoopten op een geweldig resultaat. Helaas viel dat wat tegen.
 
 **model ResNet18**
 
