@@ -30,6 +30,7 @@ ray = {extras = ["tune"], version = "^2.1.0"}
 tensorflow = "^2.11.0"
 tensorboard = "^2.11.0"
 torchsummary = "^1.5.1"
+torchinfo = "^1.7.1"
 
 [tool.poetry.dev-dependencies]
 black = "^22.1.0"

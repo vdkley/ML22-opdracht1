@@ -3,6 +3,8 @@ from typing import List, Tuple, Dict
 import numpy as np
 from pydantic import BaseModel
 import torch.optim as optim
+import settings_testmodels
+
 
 class Settings(BaseModel):
     test_string: str = "string"
@@ -23,7 +25,7 @@ class Settings(BaseModel):
     test_learning_rates: List = [0.01, 0.001, 0.0001]
     test_kernal_sizes = [2]
 
-    # TODO: alle experimenten in één dict t.b.v. compacter en automaitseren in experiment.py
+    # TODO: alle experimenten in één dict t.b.v. compacter en automatiseren in experiment.py
     experiment_parameters: Dict = {
         'optimizers' : {
             'AdamW' : optim.AdamW,
@@ -55,12 +57,42 @@ class Settings(BaseModel):
             'Adam' : optim.Adam
         },
         'trainloop.learning_rate' : {
-            '1E-2' : 0.01,
-            '1E-3' : 0.001,
-            '1E-4' : 0.0001,
+            'LR-1E-2' : 0.01,
+            'LR-1E-3' : 0.001,
+            'LR-1E-4' : 0.0001,
         },
-        'CNN.kernel_size' : {
-            'KS2' : 2,
-            'KS2' : 3
+        'models' : {
+            'model1' : 'model1',
+            'model2' : 'model2',
+            'model3' : 'model3',
+        }
+    }
+
+
+    # Best scorende combinaties 20 epoch testen
+    # Adam 1e-3 model 3
+    # RMSprop 1e-3 model 3
+    # AdamW 1e-3 model 3
+    experiments_runs: Dict = {
+        'run1' : {
+            'epochs' : 20,
+            'run_name' : 'Adam_LR-1E-3_model3',
+            'optimizer' : optim.Adam,
+            'learning_rate' : 0.001,
+            'model' : 'model3',
+        },
+        'run2' : {
+            'epochs' : 20,
+            'run_name' : 'RMSprop_LR-1E-3_model3',
+            'optimizer' : optim.RMSprop,
+            'learning_rate' : 0.001,
+            'model' : 'model3',
+        },
+        'run3' : {
+            'epochs' : 20,
+            'run_name' : 'AdamW_LR-1E-3_model3',
+            'optimizer' : optim.AdamW,
+            'learning_rate' : 0.001,
+            'model' : 'model3',
         }
     }

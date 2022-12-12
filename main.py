@@ -36,7 +36,9 @@ def main(task: str, name: str) -> None:
     if task == "exp" and name != None:
         experiments.run_experiment(presets,name)
     if task == "exp2":
-        experiments_combine.run_experiment(presets)
+        experiments_combine.run_experiment(presets,name)
+    if task == "runs":
+        experiments_combine.run_experiment_runs(presets,name)
     if task == "resnet":
         resnet_test.run_trainloop(presets)                     
 
