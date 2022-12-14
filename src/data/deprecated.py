@@ -5,7 +5,7 @@ import torch
 import numpy as np
 import tensorflow as tf
 
-from src.data import data_tools
+from data import data_tools
 
 class Dataloader:
     """Point the dataloader to a directory.

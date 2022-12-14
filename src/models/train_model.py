@@ -18,9 +18,9 @@ from torchvision.utils import make_grid
 from torchinfo import summary
 from tqdm import tqdm
 
-from src.data import data_tools
-from src.models.metrics import Metric
-from src.typehinting import GenericModel
+from data import data_tools
+from models.metrics import Metric
+from typehinting import GenericModel
 
 
 def write_gin(dir: Path, txt) -> None:

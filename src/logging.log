@@ -1,0 +1,910 @@
+2022-12-03 12:53:26.657 | INFO     | __main__:main:16 - starting train
+2022-12-03 12:55:08.502 | INFO     | __main__:main:16 - starting train
+2022-12-03 13:02:39.669 | INFO     | __main__:main:16 - starting train
+2022-12-03 13:04:53.504 | INFO     | __main__:main:16 - starting train
+2022-12-03 13:19:53.693 | INFO     | __main__:main:16 - starting train
+2022-12-03 13:19:53.755 | INFO     | train_model:run_trainloop:62 - Model parameters 29482
+2022-12-03 13:22:47.812 | INFO     | __main__:main:16 - starting train
+2022-12-03 13:22:47.873 | INFO     | train_model:run_trainloop:62 - Model parameters 29482
+2022-12-03 13:22:47.977 | INFO     | train_model:run_trainloop:74 - Start Accuracy 0.078125
+2022-12-03 13:26:09.484 | INFO     | __main__:main:16 - starting train
+2022-12-03 13:26:09.545 | INFO     | train_model:run_trainloop:62 - Model parameters 29482
+2022-12-03 13:26:09.558 | INFO     | train_model:run_trainloop:74 - Start Accuracy 0.046875
+2022-12-03 13:26:09.559 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/20221203-1326
+2022-12-03 13:31:22.613 | INFO     | __main__:main:16 - starting train
+2022-12-03 13:31:22.675 | INFO     | train_model:run_trainloop:62 - Model parameters 29482
+2022-12-03 13:31:22.687 | INFO     | train_model:run_trainloop:74 - Start Accuracy 0.09375
+2022-12-03 13:31:22.688 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/20221203-1331
+2022-12-03 13:42:55.456 | INFO     | __main__:main:16 - starting train
+2022-12-03 13:42:55.516 | INFO     | train_model:run_trainloop:62 - Model parameters 29482
+2022-12-03 13:42:55.529 | INFO     | train_model:run_trainloop:74 - Start Accuracy 0.125
+2022-12-03 13:42:55.530 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/20221203-1342
+2022-12-03 13:43:25.008 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 0.7195 test 0.5052 metric ['0.8150']
+2022-12-03 13:43:52.964 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.4298 test 0.4202 metric ['0.8438']
+2022-12-03 13:44:20.798 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.3588 test 0.3634 metric ['0.8707']
+2022-12-03 13:44:48.739 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 0.3179 test 0.3344 metric ['0.8771']
+2022-12-03 13:45:16.720 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 0.2901 test 0.3119 metric ['0.8876']
+2022-12-03 13:45:44.806 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 0.2714 test 0.2787 metric ['0.8992']
+2022-12-03 13:46:12.838 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 0.2554 test 0.2896 metric ['0.8926']
+2022-12-03 13:46:41.015 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 0.2374 test 0.2637 metric ['0.9060']
+2022-12-03 13:47:08.938 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 0.2265 test 0.2791 metric ['0.8965']
+2022-12-03 13:47:37.129 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 0.2141 test 0.2949 metric ['0.9025']
+2022-12-03 14:07:13.072 | INFO     | __main__:main:16 - starting train
+2022-12-03 14:07:41.337 | INFO     | __main__:main:16 - starting train
+2022-12-03 14:07:41.399 | INFO     | train_model:run_trainloop:65 - Model parameters 29482
+2022-12-03 14:07:41.414 | INFO     | train_model:run_trainloop:77 - Start Accuracy 0.125
+2022-12-03 14:07:41.414 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/20221203-1407
+2022-12-03 14:08:10.831 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 0.6866 test 0.5491 metric ['0.7898']
+2022-12-03 14:08:39.234 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.4248 test 0.4083 metric ['0.8555']
+2022-12-03 14:09:07.665 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.3630 test 0.3712 metric ['0.8649']
+2022-12-03 14:09:36.325 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 0.3218 test 0.3387 metric ['0.8805']
+2022-12-03 14:10:04.798 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 0.2940 test 0.3201 metric ['0.8854']
+2022-12-03 14:10:33.358 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 0.2729 test 0.2972 metric ['0.8954']
+2022-12-03 14:11:01.951 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 0.2589 test 0.3020 metric ['0.8922']
+2022-12-03 14:11:30.326 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 0.2496 test 0.3054 metric ['0.8893']
+2022-12-03 14:11:58.677 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 0.2365 test 0.2748 metric ['0.9036']
+2022-12-03 14:12:26.740 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 0.2163 test 0.2760 metric ['0.9022']
+2022-12-03 14:12:26.742 | INFO     | train_model:run_trainloop:94 - Klaar, start tensorboard met commando: tensorboard --logdir=log/
+2022-12-03 14:21:22.972 | INFO     | __main__:main:16 - starting train
+2022-12-03 14:21:23.034 | INFO     | train_model:run_trainloop:65 - Model parameters 29482
+2022-12-03 14:21:23.048 | INFO     | train_model:run_trainloop:77 - Start Accuracy 0.09375
+2022-12-03 14:33:04.883 | INFO     | __main__:main:16 - starting train
+2022-12-03 14:33:04.943 | INFO     | train_model:run_trainloop:65 - Model parameters 29482
+2022-12-03 14:33:04.956 | INFO     | train_model:run_trainloop:77 - Start Accuracy 0.109375
+2022-12-03 14:34:58.295 | INFO     | __main__:main:16 - starting train
+2022-12-03 14:34:58.356 | INFO     | train_model:run_trainloop:65 - Model parameters 29482
+2022-12-03 14:34:58.370 | INFO     | train_model:run_trainloop:77 - Start Accuracy 0.046875
+2022-12-03 14:34:58.371 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/<class 'torch.optim.adam.Adam'>/20221203-1434
+2022-12-03 14:37:47.303 | INFO     | __main__:main:16 - starting train
+2022-12-03 14:37:47.365 | INFO     | train_model:run_trainloop:65 - Model parameters 29482
+2022-12-03 14:37:47.380 | INFO     | train_model:run_trainloop:77 - Start Accuracy 0.15625
+2022-12-03 14:37:47.381 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/AdamW/20221203-1437
+2022-12-03 14:38:16.176 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 0.7026 test 0.5573 metric ['0.7998']
+2022-12-03 14:38:44.759 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.4355 test 0.4400 metric ['0.8481']
+2022-12-03 14:39:13.419 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.3737 test 0.3904 metric ['0.8627']
+2022-12-03 14:39:41.647 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 0.3384 test 0.3690 metric ['0.8641']
+2022-12-03 14:40:10.075 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 0.3123 test 0.3529 metric ['0.8770']
+2022-12-03 14:40:38.617 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 0.2911 test 0.3347 metric ['0.8741']
+2022-12-03 14:41:07.003 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 0.2768 test 0.2946 metric ['0.8967']
+2022-12-03 14:41:35.309 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 0.2637 test 0.3187 metric ['0.8856']
+2022-12-03 14:42:03.856 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 0.2461 test 0.2998 metric ['0.8953']
+2022-12-03 14:42:32.131 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 0.2406 test 0.2888 metric ['0.8975']
+2022-12-03 14:42:32.133 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/SGD/20221203-1442
+2022-12-03 14:42:56.960 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 0.2209 test 0.2807 metric ['0.8984']
+2022-12-03 14:43:21.740 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.2095 test 0.2651 metric ['0.9076']
+2022-12-03 14:43:46.022 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.2080 test 0.2767 metric ['0.9033']
+2022-12-03 14:44:10.301 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 0.2095 test 0.2775 metric ['0.9042']
+2022-12-03 14:44:35.201 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 0.2103 test 0.2691 metric ['0.9035']
+2022-12-03 14:44:59.551 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 0.2074 test 0.2605 metric ['0.9034']
+2022-12-03 14:45:23.674 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 0.2079 test 0.2561 metric ['0.9097']
+2022-12-03 14:45:48.156 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 0.2064 test 0.2658 metric ['0.9058']
+2022-12-03 14:46:12.377 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 0.2003 test 0.2613 metric ['0.9099']
+2022-12-03 14:46:36.718 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 0.2079 test 0.2632 metric ['0.9098']
+2022-12-03 14:46:36.719 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/RMSprop/20221203-1446
+2022-12-03 14:47:06.541 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 0.2452 test 0.3281 metric ['0.8791']
+2022-12-03 14:47:35.053 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.2260 test 0.3030 metric ['0.8917']
+2022-12-03 14:48:03.519 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.2197 test 0.2633 metric ['0.8982']
+2022-12-03 14:48:31.814 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 0.2144 test 0.2751 metric ['0.8998']
+2022-12-03 14:49:00.383 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 0.2066 test 0.2825 metric ['0.9043']
+2022-12-03 14:49:28.343 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 0.1977 test 0.2937 metric ['0.8964']
+2022-12-03 14:49:56.347 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 0.1893 test 0.2690 metric ['0.9056']
+2022-12-03 14:50:24.430 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 0.1850 test 0.2798 metric ['0.9050']
+2022-12-03 14:50:52.616 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 0.1835 test 0.2685 metric ['0.9058']
+2022-12-03 14:51:21.114 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 0.1749 test 0.2674 metric ['0.9085']
+2022-12-03 14:51:21.116 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/Adam/20221203-1451
+2022-12-03 14:51:50.413 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 0.1690 test 0.2637 metric ['0.9076']
+2022-12-03 14:52:19.033 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.1632 test 0.2955 metric ['0.9048']
+2022-12-03 14:52:47.200 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.1597 test 0.2740 metric ['0.9045']
+2022-12-03 14:53:15.297 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 0.1524 test 0.2823 metric ['0.9062']
+2022-12-03 14:53:43.216 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 0.1495 test 0.2693 metric ['0.9105']
+2022-12-03 14:54:11.222 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 0.1473 test 0.2940 metric ['0.9015']
+2022-12-03 14:54:39.089 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 0.1445 test 0.2767 metric ['0.9115']
+2022-12-03 14:55:06.858 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 0.1370 test 0.3083 metric ['0.9052']
+2022-12-03 14:55:34.686 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 0.1344 test 0.2970 metric ['0.9027']
+2022-12-03 14:56:02.352 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 0.1324 test 0.2824 metric ['0.9174']
+2022-12-03 14:56:02.353 | INFO     | train_model:run_trainloop:96 - Klaar, start tensorboard met commando: tensorboard --logdir=log/Adam/
+2022-12-04 07:19:46.279 | INFO     | __main__:main:16 - starting train
+2022-12-04 07:19:46.631 | INFO     | train_model:run_trainloop:63 - Model parameters 29482
+2022-12-04 07:19:46.889 | INFO     | train_model:run_trainloop:74 - Start Accuracy 0.09375
+2022-12-04 07:19:46.892 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/AdamW/20221204-0719
+2022-12-04 07:21:05.428 | INFO     | __main__:main:16 - starting train
+2022-12-04 07:21:05.507 | INFO     | train_model:run_trainloop:63 - Model parameters 29482
+2022-12-04 07:21:05.529 | INFO     | train_model:run_trainloop:74 - Start Accuracy 0.109375
+2022-12-04 07:21:05.533 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/AdamW/20221204-0721
+2022-12-04 07:21:52.234 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 0.7491 test 0.5145 metric ['0.8097']
+2022-12-04 07:22:38.162 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.4450 test 0.4154 metric ['0.8478']
+2022-12-04 07:23:22.099 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.3665 test 0.3690 metric ['0.8680']
+2022-12-04 07:24:06.472 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 0.3197 test 0.3305 metric ['0.8806']
+2022-12-04 07:24:48.885 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 0.2937 test 0.3164 metric ['0.8868']
+2022-12-04 07:25:37.848 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 0.2798 test 0.2893 metric ['0.8956']
+2022-12-04 07:26:35.837 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 0.2572 test 0.2966 metric ['0.8927']
+2022-12-04 07:27:19.537 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 0.2452 test 0.2933 metric ['0.8963']
+2022-12-04 07:28:02.455 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 0.2321 test 0.2774 metric ['0.9060']
+2022-12-04 07:28:45.103 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 0.2202 test 0.2711 metric ['0.9043']
+2022-12-04 07:28:45.107 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/SGD/20221204-0728
+2022-12-04 07:29:25.335 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 2.3072 test 2.3065 metric ['0.1006']
+2022-12-04 07:30:02.258 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 2.3071 test 2.3051 metric ['0.1260']
+2022-12-04 07:30:40.661 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 2.3054 test 2.3063 metric ['0.0962']
+2022-12-04 07:31:19.096 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 2.3044 test 2.3035 metric ['0.1019']
+2022-12-04 07:31:57.012 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 2.3041 test 2.3035 metric ['0.1697']
+2022-12-04 07:32:34.676 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 2.3027 test 2.3026 metric ['0.1088']
+2022-12-04 07:33:12.579 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 2.3027 test 2.3024 metric ['0.0978']
+2022-12-04 07:33:50.353 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 2.3019 test 2.3021 metric ['0.1002']
+2022-12-04 07:34:28.181 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 2.3017 test 2.3016 metric ['0.1033']
+2022-12-04 07:35:05.800 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 2.3016 test 2.3012 metric ['0.1005']
+2022-12-04 07:35:05.804 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/RMSprop/20221204-0735
+2022-12-04 07:35:43.764 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 0.6743 test 0.5191 metric ['0.8063']
+2022-12-04 07:36:21.094 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.4162 test 0.4205 metric ['0.8477']
+2022-12-04 07:36:57.337 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.3536 test 0.3833 metric ['0.8607']
+2022-12-04 07:37:30.925 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 0.3134 test 0.3373 metric ['0.8722']
+2022-12-04 07:38:03.388 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 0.2972 test 0.3017 metric ['0.8907']
+2022-12-04 07:38:36.631 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 0.2746 test 0.3130 metric ['0.8888']
+2022-12-04 07:39:11.295 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 0.2599 test 0.3006 metric ['0.8905']
+2022-12-04 07:39:44.240 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 0.2472 test 0.2893 metric ['0.8970']
+2022-12-04 07:40:16.879 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 0.2385 test 0.2863 metric ['0.8992']
+2022-12-04 07:40:50.112 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 0.2271 test 0.2759 metric ['0.8987']
+2022-12-04 07:40:50.116 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/Adam/20221204-0740
+2022-12-04 07:41:25.231 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 0.6852 test 0.4792 metric ['0.8297']
+2022-12-04 07:41:59.053 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.4143 test 0.3765 metric ['0.8663']
+2022-12-04 07:42:32.668 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.3385 test 0.3589 metric ['0.8674']
+2022-12-04 07:43:05.718 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 0.3072 test 0.3401 metric ['0.8716']
+2022-12-04 07:43:38.935 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 0.2734 test 0.3132 metric ['0.8865']
+2022-12-04 07:44:12.320 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 0.2572 test 0.2948 metric ['0.8925']
+2022-12-04 07:44:46.412 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 0.2439 test 0.2840 metric ['0.8986']
+2022-12-04 07:45:19.073 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 0.2351 test 0.2977 metric ['0.8926']
+2022-12-04 07:45:51.413 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 0.2210 test 0.2474 metric ['0.9123']
+2022-12-04 07:46:23.952 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 0.2128 test 0.2756 metric ['0.9035']
+2022-12-04 07:46:23.954 | INFO     | train_model:run_trainloop:99 - Klaar, start tensorboard met commando: tensorboard --logdir=log/Adam/
+2022-12-04 07:48:52.365 | INFO     | __main__:main:16 - starting train
+2022-12-04 07:48:52.441 | INFO     | train_model:run_trainloop:63 - Model parameters 29482
+2022-12-04 07:48:52.456 | INFO     | train_model:run_trainloop:74 - Start Accuracy 0.109375
+2022-12-04 07:48:52.458 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/Adamax/20221204-0748
+2022-12-04 07:49:31.500 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 0.8569 test 0.6592 metric ['0.7534']
+2022-12-04 07:50:09.244 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.5536 test 0.5287 metric ['0.8057']
+2022-12-04 07:50:46.469 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.4807 test 0.4665 metric ['0.8246']
+2022-12-04 07:51:23.960 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 0.4331 test 0.4356 metric ['0.8372']
+2022-12-04 07:52:01.682 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 0.3979 test 0.4234 metric ['0.8482']
+2022-12-04 07:52:39.233 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 0.3762 test 0.3830 metric ['0.8565']
+2022-12-04 07:53:16.512 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 0.3515 test 0.3759 metric ['0.8589']
+2022-12-04 07:53:54.032 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 0.3365 test 0.3860 metric ['0.8588']
+2022-12-04 07:54:31.579 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 0.3177 test 0.3407 metric ['0.8772']
+2022-12-04 07:55:09.392 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 0.3009 test 0.3418 metric ['0.8755']
+2022-12-04 07:55:09.393 | INFO     | train_model:run_trainloop:99 - Klaar, start tensorboard met commando: tensorboard --logdir=log/Adamax/
+2022-12-04 08:28:00.295 | INFO     | __main__:main:16 - starting optimtest
+2022-12-04 08:29:00.017 | INFO     | __main__:main:16 - starting optimtest
+2022-12-04 08:29:00.089 | INFO     | optimizer_test:run_trainloop:64 - Model parameters 29482
+2022-12-04 08:29:00.101 | INFO     | optimizer_test:run_trainloop:75 - Start Accuracy 0.109375
+2022-12-04 08:29:00.104 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/Adamax/20221204-0829
+2022-12-04 09:23:12.418 | INFO     | __main__:main:17 - starting lrtest
+2022-12-04 09:24:39.513 | INFO     | __main__:main:17 - starting lrtest
+2022-12-04 09:28:28.948 | INFO     | __main__:main:17 - starting lrtest
+2022-12-04 09:29:55.537 | INFO     | __main__:main:17 - starting lrtest
+2022-12-04 09:29:55.667 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221204-0929
+2022-12-04 09:30:40.828 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 0.5811 test 0.4515 metric ['0.8398']
+2022-12-04 09:31:27.241 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.3923 test 0.4190 metric ['0.8589']
+2022-12-04 09:32:10.937 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.3656 test 0.3910 metric ['0.8601']
+2022-12-04 09:32:54.812 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 0.3554 test 0.3777 metric ['0.8657']
+2022-12-04 09:33:38.381 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 0.3460 test 0.3813 metric ['0.8637']
+2022-12-04 09:34:21.684 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 0.3291 test 0.3774 metric ['0.8678']
+2022-12-04 09:35:04.777 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 0.3240 test 0.4231 metric ['0.8645']
+2022-12-04 09:35:46.759 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 0.3320 test 0.3716 metric ['0.8709']
+2022-12-04 09:36:28.344 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 0.3172 test 0.3390 metric ['0.8839']
+2022-12-04 09:37:10.051 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 0.3109 test 0.3509 metric ['0.8817']
+2022-12-04 09:37:10.057 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221204-0937
+2022-12-04 09:37:53.434 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 0.6967 test 0.4607 metric ['0.8264']
+2022-12-04 09:38:35.575 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.4126 test 0.3971 metric ['0.8539']
+2022-12-04 09:39:16.855 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.3475 test 0.3566 metric ['0.8665']
+2022-12-04 09:39:58.905 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 0.3134 test 0.3322 metric ['0.8757']
+2022-12-04 09:40:42.188 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 0.2927 test 0.3286 metric ['0.8711']
+2022-12-04 09:41:26.813 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 0.2733 test 0.3099 metric ['0.8905']
+2022-12-04 09:42:08.105 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 0.2533 test 0.3031 metric ['0.8929']
+2022-12-04 09:42:48.267 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 0.2385 test 0.2883 metric ['0.8949']
+2022-12-04 09:43:27.924 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 0.2364 test 0.2786 metric ['0.8976']
+2022-12-04 09:44:07.399 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 0.2253 test 0.3081 metric ['0.8952']
+2022-12-04 09:44:07.404 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221204-0944
+2022-12-04 09:44:49.020 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 1.1716 test 0.7561 metric ['0.7109']
+2022-12-04 09:45:28.488 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.6777 test 0.6465 metric ['0.7579']
+2022-12-04 09:46:08.233 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.6082 test 0.6304 metric ['0.7575']
+2022-12-04 09:46:50.128 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 0.5682 test 0.5734 metric ['0.7907']
+2022-12-04 09:47:33.001 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 0.5295 test 0.5439 metric ['0.8025']
+2022-12-04 09:48:13.158 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 0.4981 test 0.5088 metric ['0.8162']
+2022-12-04 09:48:51.702 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 0.4785 test 0.5007 metric ['0.8175']
+2022-12-04 09:49:31.338 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 0.4564 test 0.4516 metric ['0.8389']
+2022-12-04 09:50:10.262 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 0.4371 test 0.4612 metric ['0.8289']
+2022-12-04 09:50:51.688 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 0.4219 test 0.4526 metric ['0.8342']
+2022-12-04 09:50:51.689 | INFO     | learningrate_test:run_trainloop:49 - Klaar, start tensorboard met commando: tensorboard --logdir=log/learningrates/
+2022-12-04 10:27:42.255 | INFO     | __main__:main:18 - starting filtertest
+2022-12-04 10:28:30.702 | INFO     | __main__:main:18 - starting filtertest
+2022-12-04 10:28:30.828 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/F128F64/20221204-1028
+2022-12-04 10:30:41.764 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 0.6707 test 0.4782 metric ['0.8227']
+2022-12-04 10:32:50.984 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.4062 test 0.3911 metric ['0.8498']
+2022-12-04 10:34:59.361 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.3432 test 0.3539 metric ['0.8772']
+2022-12-04 10:37:05.002 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 0.3000 test 0.3335 metric ['0.8840']
+2022-12-04 10:39:11.603 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 0.2800 test 0.2789 metric ['0.9029']
+2022-12-04 10:41:21.048 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 0.2487 test 0.2857 metric ['0.8980']
+2022-12-04 10:43:28.167 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 0.2377 test 0.2837 metric ['0.8961']
+2022-12-04 10:45:34.272 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 0.2221 test 0.2629 metric ['0.9048']
+2022-12-04 10:47:40.100 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 0.2095 test 0.3142 metric ['0.8950']
+2022-12-04 10:49:46.288 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 0.2023 test 0.2686 metric ['0.9084']
+2022-12-04 10:49:46.293 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/F64F128/20221204-1049
+2022-12-04 10:51:27.243 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 0.6154 test 0.4325 metric ['0.8349']
+2022-12-04 10:53:03.480 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.3585 test 0.3589 metric ['0.8664']
+2022-12-04 10:54:37.899 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.3079 test 0.3537 metric ['0.8751']
+2022-12-04 10:56:11.656 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 0.2728 test 0.2882 metric ['0.8999']
+2022-12-04 10:57:44.714 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 0.2499 test 0.2834 metric ['0.8987']
+2022-12-04 10:59:20.831 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 0.2298 test 0.2816 metric ['0.8980']
+2022-12-04 11:00:56.667 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 0.2132 test 0.2569 metric ['0.9055']
+2022-12-04 11:02:34.879 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 0.1993 test 0.2568 metric ['0.9079']
+2022-12-04 11:04:16.683 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 0.1846 test 0.2606 metric ['0.9062']
+2022-12-04 11:05:56.324 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 0.1687 test 0.2576 metric ['0.9060']
+2022-12-04 11:05:56.328 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/F16F64/20221204-1105
+2022-12-04 11:06:37.261 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 0.7079 test 0.5228 metric ['0.8051']
+2022-12-04 11:07:16.584 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.4379 test 0.4307 metric ['0.8456']
+2022-12-04 11:07:55.170 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.3764 test 0.4020 metric ['0.8561']
+2022-12-04 11:08:34.484 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 0.3305 test 0.3624 metric ['0.8675']
+2022-12-04 11:09:12.926 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 0.3117 test 0.3234 metric ['0.8849']
+2022-12-04 11:09:52.815 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 0.2917 test 0.3350 metric ['0.8775']
+2022-12-04 11:10:32.850 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 0.2746 test 0.3288 metric ['0.8779']
+2022-12-04 11:11:13.554 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 0.2625 test 0.3165 metric ['0.8876']
+2022-12-04 11:11:54.571 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 0.2458 test 0.2882 metric ['0.8999']
+2022-12-04 11:12:34.921 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 0.2322 test 0.2737 metric ['0.8993']
+2022-12-04 11:12:34.923 | INFO     | filtertest:run_trainloop:46 - Klaar, start tensorboard met commando: tensorboard --logdir=log/F16F64/
+2022-12-04 11:14:30.565 | INFO     | __main__:main:19 - starting ksize
+2022-12-04 11:14:30.704 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/kernals/ksize-4/20221204-1114
+2022-12-04 11:17:27.771 | INFO     | __main__:main:19 - starting ksize
+2022-12-04 11:17:27.894 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/kernals/ksize-3/20221204-1117
+2022-12-04 11:20:34.080 | INFO     | __main__:main:19 - starting ksize
+2022-12-04 11:20:34.210 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/kernals/ksize-6/20221204-1120
+2022-12-04 11:23:05.341 | INFO     | __main__:main:19 - starting ksize
+2022-12-04 11:23:05.467 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/kernals/ksize-4/20221204-1123
+2022-12-04 11:24:51.621 | INFO     | __main__:main:19 - starting ksize
+2022-12-04 11:24:51.752 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/kernals/ksize-2/20221204-1124
+2022-12-04 11:25:48.572 | INFO     | __main__:main:19 - starting ksize
+2022-12-04 11:25:48.695 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/kernals/ksize-2/20221204-1125
+2022-12-04 11:26:37.047 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 0.8424 test 0.6731 metric ['0.7496']
+2022-12-04 11:27:24.147 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.5670 test 0.5574 metric ['0.7907']
+2022-12-04 11:28:10.205 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.5110 test 0.5453 metric ['0.7983']
+2022-12-04 11:28:54.986 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 0.4612 test 0.5207 metric ['0.8099']
+2022-12-04 11:29:40.599 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 0.4259 test 0.4488 metric ['0.8382']
+2022-12-04 11:30:25.866 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 0.3952 test 0.4209 metric ['0.8454']
+2022-12-04 11:31:10.298 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 0.3764 test 0.3970 metric ['0.8566']
+2022-12-04 11:31:55.072 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 0.3632 test 0.3838 metric ['0.8541']
+2022-12-04 11:32:39.367 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 0.3491 test 0.4003 metric ['0.8530']
+2022-12-04 11:33:24.713 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 0.3399 test 0.3858 metric ['0.8539']
+2022-12-04 11:33:24.715 | INFO     | kernelsizetest:run_trainloop:45 - Klaar, start tensorboard met commando: tensorboard --logdir=log/kernals/ksize-2/
+2022-12-04 16:17:01.990 | INFO     | __main__:main:20 - starting experiment
+2022-12-04 16:18:29.602 | INFO     | __main__:main:20 - starting experiment
+2022-12-04 16:28:38.420 | INFO     | __main__:main:20 - starting experiment
+2022-12-04 16:28:38.516 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221204-1628
+2022-12-04 16:30:06.331 | INFO     | __main__:main:20 - starting experiment
+2022-12-04 16:30:06.425 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/optimizers/AdamW/20221204-1630
+2022-12-04 16:43:00.715 | INFO     | __main__:main:21 - starting experiment
+2022-12-04 16:43:40.469 | INFO     | __main__:main:21 - starting exp
+2022-12-04 16:44:27.593 | INFO     | __main__:main:21 - starting exp
+2022-12-04 16:44:27.688 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/None/optimizers/AdamW/20221204-1644
+2022-12-04 16:46:17.816 | INFO     | __main__:main:21 - starting exp
+2022-12-04 16:46:42.521 | INFO     | __main__:main:21 - starting exp
+2022-12-04 16:46:42.615 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/experiment1/optimizers/AdamW/20221204-1646
+2022-12-04 16:47:11.041 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 0.7162 test 0.5563 metric ['0.7903']
+2022-12-04 16:47:38.515 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.4233 test 0.4083 metric ['0.8527']
+2022-12-04 16:48:06.096 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.3594 test 0.3666 metric ['0.8665']
+2022-12-04 16:48:33.997 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 0.3223 test 0.3461 metric ['0.8776']
+2022-12-04 16:49:02.415 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 0.2956 test 0.3186 metric ['0.8825']
+2022-12-04 16:49:30.103 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 0.2828 test 0.3001 metric ['0.8939']
+2022-12-04 16:49:57.863 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 0.2638 test 0.2931 metric ['0.8962']
+2022-12-04 16:50:25.111 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 0.2533 test 0.2815 metric ['0.8979']
+2022-12-04 16:50:52.237 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 0.2419 test 0.3289 metric ['0.8891']
+2022-12-04 16:51:19.594 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 0.2325 test 0.3001 metric ['0.8889']
+2022-12-04 16:51:19.645 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/experiment1/optimizers/AdamW/optimizers/SGD/20221204-1651
+2022-12-04 16:51:47.522 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 2.3070 test 2.3072 metric ['0.0989']
+2022-12-04 16:52:15.193 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 2.3043 test 2.3049 metric ['0.1023']
+2022-12-04 16:52:42.780 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 2.3040 test 2.3045 metric ['0.0976']
+2022-12-04 16:53:10.393 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 2.3038 test 2.3027 metric ['0.1202']
+2022-12-04 16:53:37.809 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 2.3027 test 2.3024 metric ['0.1082']
+2022-12-04 16:54:05.246 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 2.3025 test 2.3023 metric ['0.0950']
+2022-12-04 16:54:32.636 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 2.3016 test 2.3008 metric ['0.1054']
+2022-12-04 16:55:00.067 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 2.3009 test 2.3003 metric ['0.1066']
+2022-12-04 16:55:27.883 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 2.3004 test 2.3001 metric ['0.1006']
+2022-12-04 16:55:55.819 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 2.2999 test 2.3001 metric ['0.1000']
+2022-12-04 16:55:55.866 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/experiment1/optimizers/AdamW/optimizers/SGD/optimizers/RMSprop/20221204-1655
+2022-12-04 16:56:23.201 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 0.6629 test 0.5011 metric ['0.8108']
+2022-12-04 16:56:50.332 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.4274 test 0.4178 metric ['0.8514']
+2022-12-04 16:57:17.231 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.3594 test 0.3464 metric ['0.8730']
+2022-12-04 16:58:59.819 | INFO     | __main__:main:21 - starting exp
+2022-12-04 16:58:59.912 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/experiment1/optimizers/AdamW/20221204-1658
+2022-12-04 16:59:30.044 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 0.6776 test 0.4787 metric ['0.8266']
+2022-12-04 16:59:59.369 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.4213 test 0.4412 metric ['0.8359']
+2022-12-04 17:00:29.033 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.3638 test 0.4041 metric ['0.8538']
+2022-12-04 17:00:58.562 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 0.3246 test 0.3320 metric ['0.8800']
+2022-12-04 17:01:27.907 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 0.2966 test 0.3105 metric ['0.8885']
+2022-12-04 17:01:57.726 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 0.2736 test 0.3154 metric ['0.8847']
+2022-12-04 17:02:27.221 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 0.2602 test 0.2993 metric ['0.8966']
+2022-12-04 17:02:57.324 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 0.2491 test 0.3098 metric ['0.8914']
+2022-12-04 17:03:26.812 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 0.2411 test 0.2826 metric ['0.8965']
+2022-12-04 17:03:56.042 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 0.2312 test 0.2638 metric ['0.9062']
+2022-12-04 17:03:56.091 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/experiment1/optimizers/SGD/20221204-1703
+2022-12-04 17:04:24.954 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 2.3038 test 2.3036 metric ['0.0966']
+2022-12-04 17:04:52.829 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 2.3027 test 2.3025 metric ['0.0956']
+2022-12-04 17:05:20.554 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 2.3015 test 2.3011 metric ['0.1016']
+2022-12-04 17:05:48.336 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 2.3007 test 2.2999 metric ['0.1005']
+2022-12-04 17:06:16.139 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 2.2998 test 2.2990 metric ['0.0969']
+2022-12-04 17:06:43.954 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 2.2985 test 2.2978 metric ['0.0972']
+2022-12-04 17:07:11.680 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 2.2971 test 2.2965 metric ['0.0993']
+2022-12-04 17:07:39.476 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 2.2956 test 2.2943 metric ['0.0993']
+2022-12-04 17:08:07.267 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 2.2933 test 2.2923 metric ['0.1409']
+2022-12-04 17:08:35.131 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 2.2902 test 2.2885 metric ['0.1624']
+2022-12-04 17:08:35.179 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/experiment1/optimizers/RMSprop/20221204-1708
+2022-12-04 17:09:01.374 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 0.6380 test 0.4922 metric ['0.8183']
+2022-12-04 17:09:27.146 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.4160 test 0.4083 metric ['0.8476']
+2022-12-04 17:09:52.815 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.3543 test 0.3586 metric ['0.8699']
+2022-12-04 17:10:18.185 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 0.3110 test 0.3232 metric ['0.8817']
+2022-12-04 17:10:43.412 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 0.2873 test 0.3256 metric ['0.8853']
+2022-12-04 17:11:08.298 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 0.2750 test 0.3149 metric ['0.8911']
+2022-12-04 17:11:33.169 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 0.2571 test 0.3217 metric ['0.8826']
+2022-12-04 17:11:58.162 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 0.2457 test 0.2874 metric ['0.8953']
+2022-12-04 17:12:23.200 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 0.2338 test 0.2982 metric ['0.8968']
+2022-12-04 17:12:48.189 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 0.2245 test 0.2777 metric ['0.9028']
+2022-12-04 17:12:48.234 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/experiment1/optimizers/Adam/20221204-1712
+2022-12-04 17:13:14.847 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 0.7052 test 0.4821 metric ['0.8240']
+2022-12-04 17:13:41.153 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.4178 test 0.4065 metric ['0.8495']
+2022-12-04 17:14:07.280 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.3541 test 0.3480 metric ['0.8705']
+2022-12-04 17:14:33.302 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 0.3114 test 0.3543 metric ['0.8692']
+2022-12-04 17:14:59.396 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 0.2893 test 0.3106 metric ['0.8838']
+2022-12-04 17:15:25.587 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 0.2617 test 0.3147 metric ['0.8890']
+2022-12-04 17:15:51.290 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 0.2560 test 0.2945 metric ['0.8950']
+2022-12-04 17:16:16.953 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 0.2444 test 0.3142 metric ['0.8918']
+2022-12-04 17:16:42.523 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 0.2296 test 0.2727 metric ['0.9013']
+2022-12-04 17:17:08.042 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 0.2207 test 0.2831 metric ['0.9001']
+2022-12-04 17:17:08.089 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/experiment1/learningrates/20221204-1717
+2022-12-04 17:17:33.109 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 0.5865 test 0.4234 metric ['0.8508']
+2022-12-04 17:17:57.715 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.3903 test 0.4364 metric ['0.8479']
+2022-12-04 17:18:21.951 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.3696 test 0.3793 metric ['0.8574']
+2022-12-04 17:18:45.962 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 0.3481 test 0.3568 metric ['0.8755']
+2022-12-04 17:19:09.888 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 0.3375 test 0.3880 metric ['0.8742']
+2022-12-04 17:19:33.928 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 0.3375 test 0.3691 metric ['0.8688']
+2022-12-04 17:19:58.021 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 0.3296 test 0.3851 metric ['0.8676']
+2022-12-04 17:20:22.011 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 0.3289 test 0.4129 metric ['0.8644']
+2022-12-04 17:20:46.196 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 0.3251 test 0.3731 metric ['0.8721']
+2022-12-04 17:21:10.253 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 0.3216 test 0.3604 metric ['0.8772']
+2022-12-04 17:21:10.298 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/experiment1/learningrates/20221204-1721
+2022-12-04 17:21:36.415 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 0.6986 test 0.5023 metric ['0.8077']
+2022-12-04 17:22:01.929 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.4299 test 0.4455 metric ['0.8401']
+2022-12-04 17:22:27.743 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.3550 test 0.3566 metric ['0.8708']
+2022-12-04 17:22:53.021 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 0.3236 test 0.3406 metric ['0.8770']
+2022-12-04 17:23:18.618 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 0.3021 test 0.3266 metric ['0.8898']
+2022-12-04 17:23:44.158 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 0.2849 test 0.3189 metric ['0.8825']
+2022-12-04 17:24:09.744 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 0.2662 test 0.2917 metric ['0.8940']
+2022-12-04 17:24:35.339 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 0.2535 test 0.2831 metric ['0.8973']
+2022-12-04 17:25:01.189 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 0.2399 test 0.2838 metric ['0.8955']
+2022-12-04 17:25:26.658 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 0.2288 test 0.2810 metric ['0.8955']
+2022-12-04 17:25:26.704 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/experiment1/learningrates/20221204-1725
+2022-12-04 17:25:52.478 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 1.2519 test 0.8610 metric ['0.6744']
+2022-12-04 17:26:18.176 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.7679 test 0.7333 metric ['0.7258']
+2022-12-04 17:26:43.541 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.6636 test 0.6650 metric ['0.7464']
+2022-12-04 17:27:09.071 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 0.6048 test 0.6137 metric ['0.7680']
+2022-12-04 17:27:34.482 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 0.5707 test 0.5730 metric ['0.7949']
+2022-12-04 17:27:59.821 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 0.5345 test 0.5499 metric ['0.8000']
+2022-12-04 17:28:25.108 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 0.5097 test 0.4892 metric ['0.8264']
+2022-12-04 17:28:50.301 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 0.4797 test 0.4939 metric ['0.8229']
+2022-12-04 17:29:15.465 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 0.4667 test 0.4797 metric ['0.8276']
+2022-12-04 17:29:40.674 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 0.4491 test 0.4868 metric ['0.8252']
+2022-12-04 17:29:40.722 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/experiment1/filters/F128F64/20221204-1729
+2022-12-04 17:30:57.285 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 0.6484 test 0.4773 metric ['0.8268']
+2022-12-04 17:32:12.751 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.3932 test 0.3791 metric ['0.8617']
+2022-12-04 17:33:28.140 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.3245 test 0.3525 metric ['0.8743']
+2022-12-04 17:34:43.234 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 0.2864 test 0.3226 metric ['0.8808']
+2022-12-04 17:35:58.101 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 0.2618 test 0.3119 metric ['0.8822']
+2022-12-04 17:37:12.887 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 0.2427 test 0.2994 metric ['0.8909']
+2022-12-04 17:38:27.187 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 0.2279 test 0.2965 metric ['0.8947']
+2022-12-04 17:39:41.877 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 0.2116 test 0.2720 metric ['0.8985']
+2022-12-04 17:40:56.513 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 0.1997 test 0.2559 metric ['0.9070']
+2022-12-04 17:42:10.878 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 0.1904 test 0.2645 metric ['0.9049']
+2022-12-04 17:42:10.924 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/experiment1/filters/F64F128/20221204-1742
+2022-12-04 17:43:05.277 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 0.6992 test 0.4691 metric ['0.8310']
+2022-12-04 17:43:58.305 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.4070 test 0.3840 metric ['0.8600']
+2022-12-04 17:44:51.239 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.3416 test 0.3488 metric ['0.8781']
+2022-12-04 17:45:43.626 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 0.3016 test 0.3473 metric ['0.8786']
+2022-12-04 17:46:36.101 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 0.2767 test 0.2856 metric ['0.8984']
+2022-12-04 17:47:28.181 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 0.2538 test 0.2842 metric ['0.8939']
+2022-12-04 17:48:20.027 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 0.2352 test 0.2933 metric ['0.9004']
+2022-12-04 17:49:11.984 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 0.2202 test 0.2724 metric ['0.9058']
+2022-12-04 17:50:03.573 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 0.2085 test 0.2619 metric ['0.9105']
+2022-12-04 17:50:55.083 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 0.1955 test 0.2493 metric ['0.9103']
+2022-12-04 17:50:55.129 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/experiment1/filters/F16F64/20221204-1750
+2022-12-04 17:51:18.550 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 0.6953 test 0.5116 metric ['0.8124']
+2022-12-04 17:51:41.935 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.4328 test 0.4250 metric ['0.8454']
+2022-12-04 17:52:04.576 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.3650 test 0.3602 metric ['0.8735']
+2022-12-04 17:52:27.217 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 0.3292 test 0.3370 metric ['0.8778']
+2022-12-04 17:52:49.769 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 0.2983 test 0.3061 metric ['0.8899']
+2022-12-04 17:53:12.417 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 0.2720 test 0.2919 metric ['0.8946']
+2022-12-04 17:53:35.017 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 0.2625 test 0.3030 metric ['0.8910']
+2022-12-04 17:53:57.627 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 0.2456 test 0.2995 metric ['0.8984']
+2022-12-04 17:54:20.347 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 0.2302 test 0.3118 metric ['0.8894']
+2022-12-04 17:54:42.904 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 0.2213 test 0.2933 metric ['0.8966']
+2022-12-04 17:54:42.952 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/experiment1/kernals/ksize-2/20221204-1754
+2022-12-04 17:55:07.554 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 0.8195 test 0.6178 metric ['0.7707']
+2022-12-04 17:55:32.020 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.5360 test 0.5230 metric ['0.8102']
+2022-12-04 17:55:55.909 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.4736 test 0.4745 metric ['0.8286']
+2022-12-04 17:56:20.020 | INFO     | src.models.train_model:trainloop:171 - Epoch 3 train 0.4348 test 0.4554 metric ['0.8329']
+2022-12-04 17:56:44.153 | INFO     | src.models.train_model:trainloop:171 - Epoch 4 train 0.4051 test 0.4270 metric ['0.8479']
+2022-12-04 17:57:08.664 | INFO     | src.models.train_model:trainloop:171 - Epoch 5 train 0.3827 test 0.4050 metric ['0.8575']
+2022-12-04 17:57:32.978 | INFO     | src.models.train_model:trainloop:171 - Epoch 6 train 0.3707 test 0.4025 metric ['0.8565']
+2022-12-04 17:57:57.384 | INFO     | src.models.train_model:trainloop:171 - Epoch 7 train 0.3486 test 0.3750 metric ['0.8609']
+2022-12-04 17:58:21.422 | INFO     | src.models.train_model:trainloop:171 - Epoch 8 train 0.3425 test 0.3823 metric ['0.8636']
+2022-12-04 17:58:45.489 | INFO     | src.models.train_model:trainloop:171 - Epoch 9 train 0.3291 test 0.3684 metric ['0.8672']
+2022-12-04 17:58:45.491 | INFO     | experiments:run_experiment:67 - Klaar, start tensorboard met commando: tensorboard --logdir=log/experiment1
+2022-12-05 16:02:48.356 | INFO     | __main__:main:21 - starting exp
+2022-12-05 16:03:14.885 | INFO     | __main__:main:21 - starting exp
+2022-12-05 16:04:37.149 | INFO     | __main__:main:21 - starting exp
+2022-12-05 16:04:42.377 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/experiment2/optimizers/AdamW/20221205-1604
+2022-12-06 13:29:54.997 | INFO     | __main__:main:22 - starting exp2
+2022-12-06 13:30:36.418 | INFO     | __main__:main:22 - starting exp2
+2022-12-06 13:33:43.163 | INFO     | __main__:main:22 - starting exp2
+2022-12-06 13:50:03.008 | INFO     | __main__:main:22 - starting exp2
+2022-12-06 13:50:29.112 | INFO     | __main__:main:22 - starting exp2
+2022-12-06 13:56:32.574 | INFO     | __main__:main:22 - starting exp2
+2022-12-06 13:58:19.921 | INFO     | __main__:main:22 - starting exp2
+2022-12-06 14:00:54.648 | INFO     | __main__:main:22 - starting exp2
+2022-12-06 14:02:09.430 | INFO     | __main__:main:22 - starting exp2
+2022-12-06 20:37:15.944 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221206-2037
+2022-12-06 20:38:18.291 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221206-2038
+2022-12-10 11:40:31.543 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221210-1140
+2022-12-10 11:43:01.454 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221210-1143
+2022-12-10 11:44:15.321 | INFO     | __main__:main:24 - starting exp
+2022-12-10 11:44:15.478 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/experiment2/optimizers/AdamW/20221210-1144
+2022-12-10 13:59:09.667 | INFO     | __main__:main:25 - starting resnet
+2022-12-10 13:59:10.288 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221210-1359
+2022-12-10 14:01:04.564 | INFO     | __main__:main:25 - starting resnet
+2022-12-10 14:01:05.311 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221210-1401
+2022-12-10 14:06:18.916 | INFO     | __main__:main:25 - starting resnet
+2022-12-10 14:06:19.284 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221210-1406
+2022-12-10 14:18:34.772 | INFO     | __main__:main:25 - starting resnet
+2022-12-10 14:18:35.228 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221210-1418
+2022-12-10 14:20:01.433 | INFO     | __main__:main:25 - starting resnet
+2022-12-10 14:20:01.843 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221210-1420
+2022-12-10 14:31:06.518 | INFO     | __main__:main:25 - starting resnet
+2022-12-10 14:31:06.727 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221210-1431
+2022-12-10 14:33:43.712 | INFO     | __main__:main:25 - starting resnet
+2022-12-10 14:33:44.097 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221210-1433
+2022-12-10 14:34:17.569 | INFO     | __main__:main:25 - starting resnet
+2022-12-10 14:34:17.761 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221210-1434
+2022-12-10 14:49:16.687 | INFO     | src.models.train_model:trainloop:171 - Epoch 0 train 0.4170 test 0.3752 metric ['0.8681']
+2022-12-10 15:03:51.164 | INFO     | src.models.train_model:trainloop:171 - Epoch 1 train 0.2955 test 0.3212 metric ['0.8801']
+2022-12-10 15:18:29.775 | INFO     | src.models.train_model:trainloop:171 - Epoch 2 train 0.2563 test 0.3345 metric ['0.8845']
+2022-12-10 15:18:29.777 | INFO     | resnet_test:run_trainloop:47 - Klaar, start tensorboard met commando: tensorboard --logdir=log/learningrates/
+2022-12-11 08:24:31.053 | INFO     | __main__:main:25 - starting lrtest
+2022-12-11 08:24:31.823 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221211-0824
+2022-12-11 08:27:47.113 | INFO     | __main__:main:25 - starting lrtest
+2022-12-11 08:27:47.765 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221211-0827
+2022-12-11 08:38:33.929 | INFO     | __main__:main:25 - starting lrtest
+2022-12-11 08:38:34.362 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221211-0838
+2022-12-11 08:38:59.087 | INFO     | __main__:main:25 - starting lrtest
+2022-12-11 08:38:59.302 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221211-0838
+2022-12-11 08:42:24.278 | INFO     | __main__:main:25 - starting lrtest
+2022-12-11 08:42:24.504 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221211-0842
+2022-12-11 08:43:33.598 | INFO     | __main__:main:25 - starting lrtest
+2022-12-11 08:43:33.822 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221211-0843
+2022-12-11 08:44:07.179 | INFO     | __main__:main:25 - starting lrtest
+2022-12-11 08:44:07.422 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221211-0844
+2022-12-11 08:45:03.884 | INFO     | __main__:main:25 - starting lrtest
+2022-12-11 08:45:04.135 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221211-0845
+2022-12-11 08:46:10.203 | INFO     | __main__:main:25 - starting lrtest
+2022-12-11 08:46:10.461 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/learningrates/20221211-0846
+2022-12-11 08:50:19.044 | INFO     | __main__:main:25 - starting resnet
+2022-12-11 08:50:19.355 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/ResNet/20221211-0850
+2022-12-11 10:28:53.151 | INFO     | __main__:main:25 - starting exp2
+2022-12-11 10:29:36.470 | INFO     | __main__:main:25 - starting exp2
+2022-12-11 10:31:38.865 | INFO     | __main__:main:25 - starting exp2
+2022-12-11 10:42:50.975 | INFO     | __main__:main:25 - starting exp2
+2022-12-11 10:46:12.279 | INFO     | __main__:main:25 - starting exp2
+2022-12-11 10:47:24.687 | INFO     | __main__:main:25 - starting exp2
+2022-12-11 10:49:43.410 | INFO     | __main__:main:25 - starting exp2
+2022-12-11 10:50:38.698 | INFO     | __main__:main:25 - starting exp2
+2022-12-11 11:11:17.023 | INFO     | __main__:main:25 - starting exp2
+2022-12-11 11:11:17.435 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_1/AdamW_LR-1E-2_model1_/20221211-1111
+2022-12-11 11:12:59.865 | INFO     | __main__:main:25 - starting exp2
+2022-12-11 11:13:00.326 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_1/AdamW_LR-1E-2_model2_/20221211-1113
+2022-12-11 11:19:21.685 | INFO     | __main__:main:25 - starting exp2
+2022-12-11 11:19:22.376 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/AdamW_LR-1E-2_model2_/20221211-1119
+2022-12-11 11:20:09.687 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.6296 test 0.4964 metric ['0.8151']
+2022-12-11 11:20:55.947 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.4113 test 0.4430 metric ['0.8282']
+2022-12-11 11:21:48.896 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.3849 test 0.4489 metric ['0.8390']
+2022-12-11 11:21:49.019 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/AdamW_LR-1E-3_model2_/20221211-1121
+2022-12-11 11:22:53.460 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.3082 test 0.3529 metric ['0.8708']
+2022-12-11 11:23:58.958 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.2884 test 0.3438 metric ['0.8738']
+2022-12-11 11:25:01.528 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.2830 test 0.3257 metric ['0.8832']
+2022-12-11 11:25:01.593 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/AdamW_LR-1E-4_model2_/20221211-1125
+2022-12-11 11:26:04.929 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.2699 test 0.3293 metric ['0.8842']
+2022-12-11 11:27:00.112 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.2702 test 0.3141 metric ['0.8858']
+2022-12-11 11:27:52.082 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.2688 test 0.3236 metric ['0.8871']
+2022-12-11 11:27:52.139 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/SGD_LR-1E-2_model2_/20221211-1127
+2022-12-11 11:28:39.600 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.2752 test 0.3176 metric ['0.8851']
+2022-12-11 11:29:39.021 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.2723 test 0.3232 metric ['0.8842']
+2022-12-11 11:30:38.374 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.2715 test 0.3125 metric ['0.8899']
+2022-12-11 11:30:38.447 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/SGD_LR-1E-3_model2_/20221211-1130
+2022-12-11 11:31:29.456 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.2689 test 0.3131 metric ['0.8874']
+2022-12-11 11:32:14.012 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.2672 test 0.3219 metric ['0.8853']
+2022-12-11 11:33:00.311 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.2665 test 0.3181 metric ['0.8884']
+2022-12-11 11:33:00.367 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/SGD_LR-1E-4_model2_/20221211-1133
+2022-12-11 11:33:45.416 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.2646 test 0.3332 metric ['0.8812']
+2022-12-11 11:34:29.916 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.2663 test 0.3232 metric ['0.8816']
+2022-12-11 11:35:14.890 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.2677 test 0.3005 metric ['0.8923']
+2022-12-11 11:35:14.967 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/RMSprop_LR-1E-2_model2_/20221211-1135
+2022-12-11 11:36:02.079 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.4758 test 0.4474 metric ['0.8439']
+2022-12-11 11:36:47.480 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.3741 test 0.4078 metric ['0.8511']
+2022-12-11 11:37:33.697 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.3663 test 0.4104 metric ['0.8499']
+2022-12-11 11:37:33.748 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/RMSprop_LR-1E-3_model2_/20221211-1137
+2022-12-11 11:38:19.020 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.2919 test 0.3334 metric ['0.8804']
+2022-12-11 11:39:03.696 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.2703 test 0.3177 metric ['0.8927']
+2022-12-11 11:39:48.542 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.2569 test 0.3375 metric ['0.8838']
+2022-12-11 11:39:48.591 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/RMSprop_LR-1E-4_model2_/20221211-1139
+2022-12-11 11:40:33.337 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.2505 test 0.3097 metric ['0.8924']
+2022-12-11 11:41:18.597 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.2471 test 0.3017 metric ['0.8971']
+2022-12-11 11:42:03.576 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.2435 test 0.3040 metric ['0.8934']
+2022-12-11 11:42:03.636 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/Adam_LR-1E-2_model2_/20221211-1142
+2022-12-11 11:42:49.141 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.3322 test 0.3874 metric ['0.8653']
+2022-12-11 11:43:33.915 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.3410 test 0.3640 metric ['0.8735']
+2022-12-11 11:44:18.984 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.3302 test 0.3692 metric ['0.8653']
+2022-12-11 11:44:19.037 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/Adam_LR-1E-3_model2_/20221211-1144
+2022-12-11 11:45:04.627 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.2649 test 0.3221 metric ['0.8862']
+2022-12-11 11:45:49.680 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.2521 test 0.3017 metric ['0.8929']
+2022-12-11 11:46:39.770 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.2451 test 0.3181 metric ['0.8934']
+2022-12-11 11:46:39.823 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/Adam_LR-1E-4_model2_/20221211-1146
+2022-12-11 11:47:25.678 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.2396 test 0.3045 metric ['0.8964']
+2022-12-11 11:48:10.925 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.2348 test 0.3041 metric ['0.8947']
+2022-12-11 11:48:55.823 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.2301 test 0.3161 metric ['0.8938']
+2022-12-11 12:52:45.408 | INFO     | __main__:main:25 - starting exp2
+2022-12-11 12:52:46.603 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/AdamW_LR-1E-2_model1_/20221211-1252
+2022-12-11 12:53:15.123 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.6111 test 0.4834 metric ['0.8254']
+2022-12-11 12:53:42.491 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.4122 test 0.4177 metric ['0.8488']
+2022-12-11 12:54:09.608 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.3814 test 0.4010 metric ['0.8628']
+2022-12-11 12:54:09.747 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/AdamW_LR-1E-2_model3_/20221211-1254
+2022-12-11 12:54:56.375 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.6360 test 0.4863 metric ['0.8218']
+2022-12-11 12:55:42.795 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.4243 test 0.4159 metric ['0.8528']
+2022-12-11 12:56:29.772 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.3823 test 0.4010 metric ['0.8526']
+2022-12-11 12:56:29.860 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/AdamW_LR-1E-3_model1_/20221211-1256
+2022-12-11 12:56:59.609 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.3198 test 0.3499 metric ['0.8702']
+2022-12-11 12:57:30.574 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.3006 test 0.3369 metric ['0.8807']
+2022-12-11 12:58:00.543 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.2945 test 0.3374 metric ['0.8792']
+2022-12-11 12:58:00.619 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/AdamW_LR-1E-3_model3_/20221211-1258
+2022-12-11 12:58:50.200 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.3114 test 0.3185 metric ['0.8795']
+2022-12-11 12:59:39.120 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.2882 test 0.3234 metric ['0.8799']
+2022-12-11 13:00:30.188 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.2755 test 0.3210 metric ['0.8852']
+2022-12-11 13:00:30.253 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/AdamW_LR-1E-4_model1_/20221211-1300
+2022-12-11 13:01:00.781 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.2837 test 0.3349 metric ['0.8787']
+2022-12-11 13:01:30.847 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.2857 test 0.3202 metric ['0.8849']
+2022-12-11 13:02:00.790 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.2815 test 0.3408 metric ['0.8828']
+2022-12-11 13:02:00.901 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/AdamW_LR-1E-4_model3_/20221211-1302
+2022-12-11 13:02:49.891 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.2669 test 0.3249 metric ['0.8829']
+2022-12-11 13:03:39.355 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.2598 test 0.3209 metric ['0.8853']
+2022-12-11 13:04:28.195 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.2621 test 0.3194 metric ['0.8783']
+2022-12-11 13:04:28.265 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/SGD_LR-1E-2_model1_/20221211-1304
+2022-12-11 13:04:57.379 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.2848 test 0.3358 metric ['0.8798']
+2022-12-11 13:05:26.261 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.2819 test 0.3270 metric ['0.8877']
+2022-12-11 13:05:54.814 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.2809 test 0.3311 metric ['0.8799']
+2022-12-11 13:05:54.916 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/SGD_LR-1E-2_model3_/20221211-1305
+2022-12-11 13:06:43.385 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.2649 test 0.3290 metric ['0.8806']
+2022-12-11 13:07:30.836 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.2668 test 0.3091 metric ['0.8866']
+2022-12-11 13:08:19.257 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.2598 test 0.3120 metric ['0.8861']
+2022-12-11 13:08:19.345 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/SGD_LR-1E-3_model1_/20221211-1308
+2022-12-11 13:08:48.500 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.2753 test 0.3123 metric ['0.8853']
+2022-12-11 13:09:17.433 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.2741 test 0.3186 metric ['0.8859']
+2022-12-11 13:09:46.060 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.2765 test 0.3211 metric ['0.8824']
+2022-12-11 13:09:46.134 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/SGD_LR-1E-3_model3_/20221211-1309
+2022-12-11 13:10:35.139 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.2599 test 0.3243 metric ['0.8796']
+2022-12-11 13:11:22.992 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.2592 test 0.3188 metric ['0.8836']
+2022-12-11 13:12:12.040 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.2587 test 0.3135 metric ['0.8853']
+2022-12-11 13:12:12.113 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/SGD_LR-1E-4_model1_/20221211-1312
+2022-12-11 13:12:41.139 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.2765 test 0.3193 metric ['0.8833']
+2022-12-11 13:18:40.850 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.2809 test 0.3216 metric ['0.8847']
+2022-12-11 13:19:11.539 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.2745 test 0.3160 metric ['0.8855']
+2022-12-11 13:19:11.642 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/SGD_LR-1E-4_model3_/20221211-1319
+2022-12-11 13:19:56.950 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.2617 test 0.2986 metric ['0.8927']
+2022-12-11 13:20:39.936 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.2578 test 0.3149 metric ['0.8912']
+2022-12-11 13:21:23.574 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.2598 test 0.3002 metric ['0.8872']
+2022-12-11 13:21:23.636 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/RMSprop_LR-1E-2_model1_/20221211-1321
+2022-12-11 13:21:50.481 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.4275 test 0.4234 metric ['0.8493']
+2022-12-11 13:22:17.225 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.3733 test 0.3964 metric ['0.8513']
+2022-12-11 13:22:43.975 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.3641 test 0.3968 metric ['0.8589']
+2022-12-11 13:22:44.108 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/RMSprop_LR-1E-2_model3_/20221211-1322
+2022-12-11 13:23:31.089 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.5306 test 0.4178 metric ['0.8591']
+2022-12-11 13:24:20.880 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.3889 test 0.4038 metric ['0.8507']
+2022-12-11 13:25:08.093 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.3736 test 0.4468 metric ['0.8403']
+2022-12-11 13:25:08.163 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/RMSprop_LR-1E-3_model1_/20221211-1325
+2022-12-11 13:25:38.585 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.2986 test 0.3276 metric ['0.8854']
+2022-12-11 13:26:06.902 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.2877 test 0.3202 metric ['0.8856']
+2022-12-11 13:26:35.723 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.2790 test 0.3354 metric ['0.8817']
+2022-12-11 13:26:35.790 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/RMSprop_LR-1E-3_model3_/20221211-1326
+2022-12-11 13:27:25.051 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.3039 test 0.3364 metric ['0.8813']
+2022-12-11 13:28:12.912 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.2761 test 0.3187 metric ['0.8803']
+2022-12-11 13:29:01.096 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.2630 test 0.3364 metric ['0.8842']
+2022-12-11 13:29:01.162 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/RMSprop_LR-1E-4_model1_/20221211-1329
+2022-12-11 13:29:30.508 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.2724 test 0.3398 metric ['0.8839']
+2022-12-11 13:29:59.075 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.2719 test 0.3328 metric ['0.8835']
+2022-12-11 13:30:27.870 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.2678 test 0.3426 metric ['0.8838']
+2022-12-11 13:30:28.047 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/RMSprop_LR-1E-4_model3_/20221211-1330
+2022-12-11 13:31:15.865 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.2516 test 0.3211 metric ['0.8878']
+2022-12-11 13:32:03.216 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.2482 test 0.3292 metric ['0.8834']
+2022-12-11 13:32:50.992 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.2481 test 0.3197 metric ['0.8830']
+2022-12-11 13:32:51.061 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/Adam_LR-1E-2_model1_/20221211-1332
+2022-12-11 13:33:20.164 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.3364 test 0.3584 metric ['0.8725']
+2022-12-11 13:33:49.399 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.3382 test 0.3729 metric ['0.8667']
+2022-12-11 13:34:18.337 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.3394 test 0.3686 metric ['0.8662']
+2022-12-11 13:34:18.477 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/Adam_LR-1E-2_model3_/20221211-1334
+2022-12-11 13:35:06.530 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.3562 test 0.3937 metric ['0.8572']
+2022-12-11 13:35:54.325 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.3406 test 0.3798 metric ['0.8736']
+2022-12-11 13:36:44.392 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.3377 test 0.4237 metric ['0.8458']
+2022-12-11 13:36:44.460 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/Adam_LR-1E-3_model1_/20221211-1336
+2022-12-11 13:37:14.413 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.2833 test 0.3233 metric ['0.8808']
+2022-12-11 13:37:48.630 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.2721 test 0.3118 metric ['0.8870']
+2022-12-11 13:38:18.809 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.2600 test 0.3185 metric ['0.8907']
+2022-12-11 13:38:18.916 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/Adam_LR-1E-3_model3_/20221211-1338
+2022-12-11 13:39:11.435 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.3130 test 0.3432 metric ['0.8810']
+2022-12-11 13:40:05.072 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.2626 test 0.3383 metric ['0.8787']
+2022-12-11 13:40:53.791 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.2517 test 0.3099 metric ['0.8875']
+2022-12-11 13:40:53.859 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/Adam_LR-1E-4_model1_/20221211-1340
+2022-12-11 13:41:23.903 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.2561 test 0.3079 metric ['0.8884']
+2022-12-11 13:41:53.203 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.2628 test 0.3135 metric ['0.8869']
+2022-12-11 13:42:22.546 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.2567 test 0.3015 metric ['0.8898']
+2022-12-11 13:42:22.624 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_2/Adam_LR-1E-4_model3_/20221211-1342
+2022-12-11 13:43:10.037 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.2435 test 0.3044 metric ['0.8884']
+2022-12-11 13:44:00.952 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.2370 test 0.3153 metric ['0.8857']
+2022-12-11 13:44:50.496 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.2427 test 0.3137 metric ['0.8965']
+2022-12-11 13:44:50.500 | INFO     | experiments_combine:run_experiment:67 - Klaar, start tensorboard met commando: tensorboard --logdir=log/exp_comb_2
+2022-12-11 14:30:29.504 | INFO     | __main__:main:25 - starting exruns
+2022-12-11 14:31:02.258 | INFO     | __main__:main:25 - starting runs
+2022-12-11 14:31:03.916 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_runs/run1/20221211-1431
+2022-12-11 14:31:50.255 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 1.1877 test 0.7544 metric ['0.7202']
+2022-12-11 14:32:33.791 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.6823 test 0.6605 metric ['0.7567']
+2022-12-11 14:33:20.955 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.6275 test 0.6122 metric ['0.7720']
+2022-12-11 14:34:07.159 | INFO     | src.models.train_model:trainloop:183 - Epoch 3 train 0.5787 test 0.5739 metric ['0.7809']
+2022-12-11 14:34:55.470 | INFO     | src.models.train_model:trainloop:183 - Epoch 4 train 0.5455 test 0.5483 metric ['0.7970']
+2022-12-11 14:35:45.747 | INFO     | src.models.train_model:trainloop:183 - Epoch 5 train 0.5062 test 0.5327 metric ['0.8051']
+2022-12-11 14:36:36.753 | INFO     | src.models.train_model:trainloop:183 - Epoch 6 train 0.4837 test 0.5019 metric ['0.8171']
+2022-12-11 14:37:25.710 | INFO     | src.models.train_model:trainloop:183 - Epoch 7 train 0.4629 test 0.4813 metric ['0.8174']
+2022-12-11 14:38:14.740 | INFO     | src.models.train_model:trainloop:183 - Epoch 8 train 0.4511 test 0.4965 metric ['0.8188']
+2022-12-11 14:39:04.301 | INFO     | src.models.train_model:trainloop:183 - Epoch 9 train 0.4342 test 0.4547 metric ['0.8360']
+2022-12-11 14:39:53.290 | INFO     | src.models.train_model:trainloop:183 - Epoch 10 train 0.4215 test 0.4461 metric ['0.8433']
+2022-12-11 14:40:42.643 | INFO     | src.models.train_model:trainloop:183 - Epoch 11 train 0.4098 test 0.4489 metric ['0.8406']
+2022-12-11 14:41:32.621 | INFO     | src.models.train_model:trainloop:183 - Epoch 12 train 0.3992 test 0.4260 metric ['0.8457']
+2022-12-11 14:42:21.602 | INFO     | src.models.train_model:trainloop:183 - Epoch 13 train 0.3931 test 0.3993 metric ['0.8528']
+2022-12-11 14:43:10.896 | INFO     | src.models.train_model:trainloop:183 - Epoch 14 train 0.3838 test 0.4012 metric ['0.8522']
+2022-12-11 14:44:00.255 | INFO     | src.models.train_model:trainloop:183 - Epoch 15 train 0.3778 test 0.4047 metric ['0.8512']
+2022-12-11 14:44:49.187 | INFO     | src.models.train_model:trainloop:183 - Epoch 16 train 0.3767 test 0.3818 metric ['0.8568']
+2022-12-11 14:45:37.794 | INFO     | src.models.train_model:trainloop:183 - Epoch 17 train 0.3669 test 0.3889 metric ['0.8603']
+2022-12-11 14:46:34.971 | INFO     | src.models.train_model:trainloop:183 - Epoch 18 train 0.3622 test 0.3792 metric ['0.8656']
+2022-12-11 14:47:43.189 | INFO     | src.models.train_model:trainloop:183 - Epoch 19 train 0.3507 test 0.3763 metric ['0.8682']
+2022-12-11 14:47:43.265 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_runs/run2/20221211-1447
+2022-12-11 14:48:37.628 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.3535 test 0.3728 metric ['0.8622']
+2022-12-11 14:49:25.677 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.3423 test 0.3879 metric ['0.8539']
+2022-12-11 14:50:20.584 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.3434 test 0.3806 metric ['0.8607']
+2022-12-11 14:51:11.269 | INFO     | src.models.train_model:trainloop:183 - Epoch 3 train 0.3388 test 0.3739 metric ['0.8612']
+2022-12-11 14:52:00.006 | INFO     | src.models.train_model:trainloop:183 - Epoch 4 train 0.3330 test 0.3501 metric ['0.8735']
+2022-12-11 14:52:47.867 | INFO     | src.models.train_model:trainloop:183 - Epoch 5 train 0.3261 test 0.3679 metric ['0.8664']
+2022-12-11 14:53:46.870 | INFO     | __main__:main:25 - starting exp2
+2022-12-11 14:53:46.981 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_3/AdamW_LR-1E-2_model1_/20221211-1453
+2022-12-11 14:54:14.783 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.6328 test 0.5200 metric ['0.8026']
+2022-12-11 14:54:43.381 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.4414 test 0.4364 metric ['0.8444']
+2022-12-11 14:55:15.665 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.3956 test 0.4583 metric ['0.8383']
+2022-12-11 14:55:15.720 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_3/AdamW_LR-1E-2_model3_/20221211-1455
+2022-12-11 14:57:57.282 | INFO     | __main__:main:25 - starting exp2
+2022-12-11 15:07:04.717 | INFO     | __main__:main:25 - starting exp2
+2022-12-11 15:07:05.653 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/AdamW_LR-1E-2_model1_/20221211-1507
+2022-12-11 15:07:35.907 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.6014 test 0.5410 metric ['0.8006']
+2022-12-11 15:08:03.123 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.4165 test 0.4325 metric ['0.8495']
+2022-12-11 15:08:29.882 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.3857 test 0.4114 metric ['0.8514']
+2022-12-11 15:08:29.942 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/AdamW_LR-1E-2_model2_/20221211-1508
+2022-12-11 15:09:17.555 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.5410 test 0.4300 metric ['0.8472']
+2022-12-11 15:10:10.429 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.3699 test 0.3757 metric ['0.8623']
+2022-12-11 15:11:04.078 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.3444 test 0.3786 metric ['0.8643']
+2022-12-11 15:11:04.181 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/AdamW_LR-1E-2_model3_/20221211-1511
+2022-12-11 15:12:19.521 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.6815 test 0.4473 metric ['0.8358']
+2022-12-11 15:13:39.235 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.4104 test 0.4207 metric ['0.8538']
+2022-12-11 15:14:59.450 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.3803 test 0.3844 metric ['0.8633']
+2022-12-11 15:14:59.580 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/AdamW_LR-1E-3_model1_/20221211-1514
+2022-12-11 15:15:31.349 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.7134 test 0.5510 metric ['0.7939']
+2022-12-11 15:16:02.398 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.4542 test 0.4603 metric ['0.8301']
+2022-12-11 15:16:38.170 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.3971 test 0.4279 metric ['0.8426']
+2022-12-11 15:16:38.338 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/AdamW_LR-1E-3_model2_/20221211-1516
+2022-12-11 15:17:34.422 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.7132 test 0.5061 metric ['0.8142']
+2022-12-11 15:18:26.606 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.4207 test 0.4487 metric ['0.8420']
+2022-12-11 15:19:18.377 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.3628 test 0.3675 metric ['0.8608']
+2022-12-11 15:19:18.498 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/AdamW_LR-1E-3_model3_/20221211-1519
+2022-12-11 15:20:30.285 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.7374 test 0.5036 metric ['0.8129']
+2022-12-11 15:21:41.795 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.3965 test 0.3598 metric ['0.8712']
+2022-12-11 15:22:52.307 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.3175 test 0.3453 metric ['0.8741']
+2022-12-11 15:22:52.523 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/AdamW_LR-1E-4_model1_/20221211-1522
+2022-12-11 15:23:23.242 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 1.4836 test 0.8697 metric ['0.6933']
+2022-12-11 15:23:53.947 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.7619 test 0.7370 metric ['0.7239']
+2022-12-11 15:24:23.925 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.6623 test 0.6548 metric ['0.7561']
+2022-12-11 15:24:23.999 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/AdamW_LR-1E-4_model2_/20221211-1524
+2022-12-11 15:25:12.257 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 1.1846 test 0.7730 metric ['0.7156']
+2022-12-11 15:26:00.263 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.7040 test 0.6847 metric ['0.7462']
+2022-12-11 15:26:48.599 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.6418 test 0.6556 metric ['0.7607']
+2022-12-11 15:26:48.672 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/AdamW_LR-1E-4_model3_/20221211-1526
+2022-12-11 15:27:59.474 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 1.1377 test 0.7427 metric ['0.7220']
+2022-12-11 15:29:12.099 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.6493 test 0.6603 metric ['0.7427']
+2022-12-11 15:30:22.148 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.5848 test 0.5851 metric ['0.7785']
+2022-12-11 15:30:22.224 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/SGD_LR-1E-2_model1_/20221211-1530
+2022-12-11 15:30:51.384 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 2.2835 test 2.2062 metric ['0.2473']
+2022-12-11 15:31:20.107 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 1.2451 test 0.8900 metric ['0.6842']
+2022-12-11 15:31:48.850 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.7494 test 0.7225 metric ['0.7086']
+2022-12-11 15:31:48.914 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/SGD_LR-1E-2_model2_/20221211-1531
+2022-12-11 15:32:35.664 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 2.3013 test 2.2980 metric ['0.1604']
+2022-12-11 15:33:22.112 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 2.2697 test 2.0917 metric ['0.2958']
+2022-12-11 15:34:08.607 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 1.1564 test 0.9360 metric ['0.6578']
+2022-12-11 15:34:08.684 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/SGD_LR-1E-2_model3_/20221211-1534
+2022-12-11 15:35:17.186 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 2.3040 test 2.3024 metric ['0.0983']
+2022-12-11 15:36:24.669 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 2.3021 test 2.3020 metric ['0.1918']
+2022-12-11 15:37:32.105 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 2.3014 test 2.3007 metric ['0.1065']
+2022-12-11 15:37:32.230 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/SGD_LR-1E-3_model1_/20221211-1537
+2022-12-11 15:38:01.025 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 2.3083 test 2.3042 metric ['0.1012']
+2022-12-11 15:38:29.393 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 2.3053 test 2.3028 metric ['0.1045']
+2022-12-11 15:38:58.221 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 2.3033 test 2.3031 metric ['0.1028']
+2022-12-11 15:38:58.308 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/SGD_LR-1E-3_model2_/20221211-1538
+2022-12-11 15:49:43.128 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 2.3058 test 2.3040 metric ['0.1023']
+2022-12-11 15:50:27.673 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 2.3034 test 2.3010 metric ['0.1041']
+2022-12-11 15:51:11.021 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 2.3027 test 2.3015 metric ['0.0965']
+2022-12-11 15:51:11.103 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/SGD_LR-1E-3_model3_/20221211-1551
+2022-12-11 15:52:11.882 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 2.3065 test 2.3052 metric ['0.1058']
+2022-12-11 15:53:12.179 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 2.3058 test 2.3062 metric ['0.0995']
+2022-12-11 15:54:16.371 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 2.3053 test 2.3055 metric ['0.0999']
+2022-12-11 15:54:16.479 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/SGD_LR-1E-4_model1_/20221211-1554
+2022-12-11 15:54:45.560 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 2.3088 test 2.3090 metric ['0.0952']
+2022-12-11 15:55:14.195 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 2.3087 test 2.3076 metric ['0.0931']
+2022-12-11 15:55:42.784 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 2.3084 test 2.3086 metric ['0.0959']
+2022-12-11 15:55:42.864 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/SGD_LR-1E-4_model2_/20221211-1555
+2022-12-11 15:56:31.749 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 2.3095 test 2.3101 metric ['0.0953']
+2022-12-11 15:57:20.741 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 2.3083 test 2.3057 metric ['0.1052']
+2022-12-11 15:58:09.301 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 2.3082 test 2.3092 metric ['0.0986']
+2022-12-11 15:58:09.373 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/SGD_LR-1E-4_model3_/20221211-1558
+2022-12-11 15:59:20.308 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 2.3088 test 2.3073 metric ['0.0997']
+2022-12-11 16:00:30.788 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 2.3084 test 2.3093 metric ['0.0942']
+2022-12-11 16:01:40.327 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 2.3081 test 2.3089 metric ['0.0946']
+2022-12-11 16:01:40.402 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/RMSprop_LR-1E-2_model1_/20221211-1601
+2022-12-11 16:02:10.036 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.6793 test 0.6333 metric ['0.7691']
+2022-12-11 16:02:39.241 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.4313 test 0.4295 metric ['0.8400']
+2022-12-11 16:03:08.380 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.3970 test 0.4307 metric ['0.8503']
+2022-12-11 16:03:08.599 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/RMSprop_LR-1E-2_model2_/20221211-1603
+2022-12-11 16:03:56.589 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.9464 test 0.5211 metric ['0.8150']
+2022-12-11 16:04:44.686 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.4939 test 0.4579 metric ['0.8307']
+2022-12-11 16:05:31.725 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.4102 test 0.4586 metric ['0.8340']
+2022-12-11 16:05:31.799 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/RMSprop_LR-1E-2_model3_/20221211-1605
+2022-12-11 16:06:40.007 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 13.1141 test 0.6123 metric ['0.7645']
+2022-12-11 16:07:50.231 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.6393 test 0.5210 metric ['0.8118']
+2022-12-11 16:08:57.569 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.4603 test 0.4827 metric ['0.8326']
+2022-12-11 16:08:57.682 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/RMSprop_LR-1E-3_model1_/20221211-1608
+2022-12-11 16:09:27.749 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.6945 test 0.5454 metric ['0.8051']
+2022-12-11 16:09:56.963 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.4983 test 0.4983 metric ['0.8118']
+2022-12-11 16:10:26.190 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.4314 test 0.4489 metric ['0.8345']
+2022-12-11 16:10:26.265 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/RMSprop_LR-1E-3_model2_/20221211-1610
+2022-12-11 16:11:13.339 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.7011 test 0.5310 metric ['0.7913']
+2022-12-11 16:11:59.820 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.4643 test 0.4301 metric ['0.8458']
+2022-12-11 16:12:46.577 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.3786 test 0.3856 metric ['0.8603']
+2022-12-11 16:12:46.645 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/RMSprop_LR-1E-3_model3_/20221211-1612
+2022-12-11 16:13:56.854 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.8539 test 0.5136 metric ['0.8134']
+2022-12-11 16:15:06.262 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.4243 test 0.3773 metric ['0.8619']
+2022-12-11 16:16:16.840 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.3283 test 0.3201 metric ['0.8825']
+2022-12-11 16:16:17.037 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/RMSprop_LR-1E-4_model1_/20221211-1616
+2022-12-11 16:16:47.378 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 1.4199 test 0.9562 metric ['0.6619']
+2022-12-11 16:17:17.453 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.8383 test 0.8003 metric ['0.7128']
+2022-12-11 16:17:47.380 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.7316 test 0.7377 metric ['0.7232']
+2022-12-11 16:17:47.463 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/RMSprop_LR-1E-4_model2_/20221211-1617
+2022-12-11 16:18:35.427 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 1.1251 test 0.8668 metric ['0.6679']
+2022-12-11 16:19:23.921 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.7652 test 0.7386 metric ['0.7286']
+2022-12-11 16:20:11.863 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.6786 test 0.6630 metric ['0.7540']
+2022-12-11 16:20:11.945 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/RMSprop_LR-1E-4_model3_/20221211-1620
+2022-12-11 16:21:21.653 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 1.0002 test 0.7972 metric ['0.6967']
+2022-12-11 16:22:31.778 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.7091 test 0.6540 metric ['0.7533']
+2022-12-11 16:23:41.358 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.6175 test 0.5862 metric ['0.7800']
+2022-12-11 16:23:41.522 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/Adam_LR-1E-2_model1_/20221211-1623
+2022-12-11 16:24:11.591 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.5896 test 0.4433 metric ['0.8397']
+2022-12-11 16:24:41.168 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.4023 test 0.3932 metric ['0.8553']
+2022-12-11 16:25:10.627 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.3728 test 0.3790 metric ['0.8653']
+2022-12-11 16:25:10.693 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/Adam_LR-1E-2_model2_/20221211-1625
+2022-12-11 16:25:57.404 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.5856 test 0.4305 metric ['0.8486']
+2022-12-11 16:26:44.489 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.3918 test 0.4254 metric ['0.8523']
+2022-12-11 16:27:31.255 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.3645 test 0.3625 metric ['0.8692']
+2022-12-11 16:27:31.330 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/Adam_LR-1E-2_model3_/20221211-1627
+2022-12-11 16:29:35.600 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.6234 test 0.4358 metric ['0.8396']
+2022-12-11 16:30:39.847 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.3914 test 0.3905 metric ['0.8611']
+2022-12-11 16:31:42.421 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.3723 test 0.3866 metric ['0.8648']
+2022-12-11 16:31:42.491 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/Adam_LR-1E-3_model1_/20221211-1631
+2022-12-11 16:32:10.287 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.7635 test 0.5311 metric ['0.8007']
+2022-12-11 16:32:37.516 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.4828 test 0.4679 metric ['0.8344']
+2022-12-11 16:33:04.814 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.4114 test 0.4151 metric ['0.8487']
+2022-12-11 16:33:04.878 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/Adam_LR-1E-3_model2_/20221211-1633
+2022-12-11 16:33:50.502 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.7034 test 0.5013 metric ['0.8084']
+2022-12-11 16:34:39.653 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.4383 test 0.4009 metric ['0.8531']
+2022-12-11 16:35:29.652 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.3643 test 0.3723 metric ['0.8639']
+2022-12-11 16:35:29.722 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/Adam_LR-1E-3_model3_/20221211-1635
+2022-12-11 16:36:39.369 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.7040 test 0.4875 metric ['0.8264']
+2022-12-11 16:37:48.717 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.3703 test 0.3586 metric ['0.8707']
+2022-12-11 16:38:58.370 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.2950 test 0.3180 metric ['0.8849']
+2022-12-11 16:38:58.435 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/Adam_LR-1E-4_model1_/20221211-1638
+2022-12-11 16:39:29.012 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 1.4382 test 0.8400 metric ['0.7028']
+2022-12-11 16:39:58.851 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.7568 test 0.7194 metric ['0.7377']
+2022-12-11 16:40:28.862 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.6739 test 0.6728 metric ['0.7501']
+2022-12-11 16:40:28.948 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/Adam_LR-1E-4_model2_/20221211-1640
+2022-12-11 16:41:16.672 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 1.1835 test 0.7375 metric ['0.7093']
+2022-12-11 16:42:04.020 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.6667 test 0.6380 metric ['0.7516']
+2022-12-11 16:42:51.271 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.6037 test 0.6022 metric ['0.7655']
+2022-12-11 16:42:51.335 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_comb_5/Adam_LR-1E-4_model3_/20221211-1642
+2022-12-11 16:44:02.189 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 1.0616 test 0.7018 metric ['0.7321']
+2022-12-11 16:45:13.070 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.6430 test 0.6261 metric ['0.7647']
+2022-12-11 16:46:24.323 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.5755 test 0.5559 metric ['0.7832']
+2022-12-11 16:46:24.327 | INFO     | experiments_combine:run_experiment:75 - Klaar, start tensorboard met commando: tensorboard --logdir=log/exp_comb_5
+2022-12-12 09:26:19.352 | INFO     | __main__:main:25 - starting runs
+2022-12-12 09:26:22.504 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_runs2/Adam_LR-1E-3_model3/20221212-0926
+2022-12-12 09:27:33.055 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.6892 test 0.4996 metric ['0.8294']
+2022-12-12 09:28:44.631 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.3579 test 0.4181 metric ['0.8543']
+2022-12-12 09:29:55.740 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.2875 test 0.3059 metric ['0.8911']
+2022-12-12 09:31:10.881 | INFO     | src.models.train_model:trainloop:183 - Epoch 3 train 0.2500 test 0.2777 metric ['0.9037']
+2022-12-12 09:32:26.907 | INFO     | src.models.train_model:trainloop:183 - Epoch 4 train 0.2229 test 0.3164 metric ['0.8914']
+2022-12-12 09:33:43.829 | INFO     | src.models.train_model:trainloop:183 - Epoch 5 train 0.2009 test 0.3042 metric ['0.8963']
+2022-12-12 09:34:58.002 | INFO     | src.models.train_model:trainloop:183 - Epoch 6 train 0.1816 test 0.2802 metric ['0.9022']
+2022-12-12 09:36:12.610 | INFO     | src.models.train_model:trainloop:183 - Epoch 7 train 0.1616 test 0.2619 metric ['0.9118']
+2022-12-12 09:37:27.390 | INFO     | src.models.train_model:trainloop:183 - Epoch 8 train 0.1474 test 0.2775 metric ['0.9131']
+2022-12-12 09:38:43.565 | INFO     | src.models.train_model:trainloop:183 - Epoch 9 train 0.1336 test 0.3034 metric ['0.9077']
+2022-12-12 09:39:58.074 | INFO     | src.models.train_model:trainloop:183 - Epoch 10 train 0.1231 test 0.2711 metric ['0.9133']
+2022-12-12 09:41:13.119 | INFO     | src.models.train_model:trainloop:183 - Epoch 11 train 0.1143 test 0.2954 metric ['0.9129']
+2022-12-12 09:42:27.222 | INFO     | src.models.train_model:trainloop:183 - Epoch 12 train 0.1066 test 0.2968 metric ['0.9124']
+2022-12-12 09:43:42.061 | INFO     | src.models.train_model:trainloop:183 - Epoch 13 train 0.0963 test 0.2840 metric ['0.9216']
+2022-12-12 09:44:56.322 | INFO     | src.models.train_model:trainloop:183 - Epoch 14 train 0.0865 test 0.3517 metric ['0.9140']
+2022-12-12 09:46:11.072 | INFO     | src.models.train_model:trainloop:183 - Epoch 15 train 0.0870 test 0.3124 metric ['0.9075']
+2022-12-12 09:47:24.935 | INFO     | src.models.train_model:trainloop:183 - Epoch 16 train 0.0744 test 0.3142 metric ['0.9153']
+2022-12-12 10:07:38.540 | INFO     | src.models.train_model:trainloop:183 - Epoch 17 train 0.0704 test 0.3866 metric ['0.9139']
+2022-12-12 10:08:50.155 | INFO     | src.models.train_model:trainloop:183 - Epoch 18 train 0.0647 test 0.4100 metric ['0.9050']
+2022-12-12 10:10:00.265 | INFO     | src.models.train_model:trainloop:183 - Epoch 19 train 0.0580 test 0.3810 metric ['0.9162']
+2022-12-12 10:10:00.921 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_runs2/RMSprop_LR-1E-3_model3/20221212-1010
+2022-12-12 10:11:11.885 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.7652 test 0.4796 metric ['0.8199']
+2022-12-12 10:12:26.794 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.3990 test 0.3431 metric ['0.8770']
+2022-12-12 10:13:50.926 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.3145 test 0.3376 metric ['0.8849']
+2022-12-12 10:15:22.279 | INFO     | src.models.train_model:trainloop:183 - Epoch 3 train 0.2696 test 0.2895 metric ['0.8938']
+2022-12-12 10:16:44.104 | INFO     | src.models.train_model:trainloop:183 - Epoch 4 train 0.2451 test 0.2983 metric ['0.8998']
+2022-12-12 10:18:10.926 | INFO     | src.models.train_model:trainloop:183 - Epoch 5 train 0.2217 test 0.2747 metric ['0.9057']
+2022-12-12 10:19:36.982 | INFO     | src.models.train_model:trainloop:183 - Epoch 6 train 0.2028 test 0.2925 metric ['0.9036']
+2022-12-12 10:21:04.717 | INFO     | src.models.train_model:trainloop:183 - Epoch 7 train 0.1898 test 0.2909 metric ['0.9044']
+2022-12-12 10:22:28.733 | INFO     | src.models.train_model:trainloop:183 - Epoch 8 train 0.1719 test 0.2854 metric ['0.9062']
+2022-12-12 10:23:53.253 | INFO     | src.models.train_model:trainloop:183 - Epoch 9 train 0.1658 test 0.2897 metric ['0.8989']
+2022-12-12 10:25:20.744 | INFO     | src.models.train_model:trainloop:183 - Epoch 10 train 0.1526 test 0.2676 metric ['0.9129']
+2022-12-12 10:26:45.753 | INFO     | src.models.train_model:trainloop:183 - Epoch 11 train 0.1373 test 0.2802 metric ['0.9120']
+2022-12-12 10:28:05.572 | INFO     | src.models.train_model:trainloop:183 - Epoch 12 train 0.1305 test 0.3211 metric ['0.9139']
+2022-12-12 10:29:33.393 | INFO     | src.models.train_model:trainloop:183 - Epoch 13 train 0.1215 test 0.2911 metric ['0.9166']
+2022-12-12 10:31:04.215 | INFO     | src.models.train_model:trainloop:183 - Epoch 14 train 0.1103 test 0.3147 metric ['0.9141']
+2022-12-12 10:32:30.416 | INFO     | src.models.train_model:trainloop:183 - Epoch 15 train 0.1044 test 0.3246 metric ['0.9142']
+2022-12-12 10:33:54.148 | INFO     | src.models.train_model:trainloop:183 - Epoch 16 train 0.0960 test 0.3036 metric ['0.9107']
+2022-12-12 10:35:19.678 | INFO     | src.models.train_model:trainloop:183 - Epoch 17 train 0.0884 test 0.3349 metric ['0.9111']
+2022-12-12 10:36:42.258 | INFO     | src.models.train_model:trainloop:183 - Epoch 18 train 0.0876 test 0.3398 metric ['0.9137']
+2022-12-12 10:38:08.734 | INFO     | src.models.train_model:trainloop:183 - Epoch 19 train 0.0819 test 0.3735 metric ['0.9100']
+2022-12-12 10:38:09.798 | INFO     | src.data.data_tools:dir_add_timestamp:114 - Logging to log/exp_runs2/AdamW_LR-1E-3_model3/20221212-1038
+2022-12-12 10:39:47.989 | INFO     | src.models.train_model:trainloop:183 - Epoch 0 train 0.6994 test 0.5004 metric ['0.8224']
+2022-12-12 10:41:33.537 | INFO     | src.models.train_model:trainloop:183 - Epoch 1 train 0.3899 test 0.3899 metric ['0.8588']
+2022-12-12 10:43:07.695 | INFO     | src.models.train_model:trainloop:183 - Epoch 2 train 0.3155 test 0.3309 metric ['0.8810']
+2022-12-12 10:44:34.462 | INFO     | src.models.train_model:trainloop:183 - Epoch 3 train 0.2726 test 0.3192 metric ['0.8868']
+2022-12-12 10:45:57.401 | INFO     | src.models.train_model:trainloop:183 - Epoch 4 train 0.2430 test 0.3146 metric ['0.8886']
+2022-12-12 10:47:21.458 | INFO     | src.models.train_model:trainloop:183 - Epoch 5 train 0.2212 test 0.2775 metric ['0.8954']
+2022-12-12 10:48:39.917 | INFO     | src.models.train_model:trainloop:183 - Epoch 6 train 0.2025 test 0.2843 metric ['0.9004']
+2022-12-12 10:49:59.683 | INFO     | src.models.train_model:trainloop:183 - Epoch 7 train 0.1911 test 0.2559 metric ['0.9094']
+2022-12-12 10:51:30.711 | INFO     | src.models.train_model:trainloop:183 - Epoch 8 train 0.1755 test 0.2632 metric ['0.9080']
+2022-12-12 10:52:55.687 | INFO     | src.models.train_model:trainloop:183 - Epoch 9 train 0.1584 test 0.2405 metric ['0.9203']
+2022-12-12 10:54:12.916 | INFO     | src.models.train_model:trainloop:183 - Epoch 10 train 0.1488 test 0.2811 metric ['0.9065']
+2022-12-12 10:55:29.897 | INFO     | src.models.train_model:trainloop:183 - Epoch 11 train 0.1392 test 0.2557 metric ['0.9160']
+2022-12-12 10:56:49.096 | INFO     | src.models.train_model:trainloop:183 - Epoch 12 train 0.1291 test 0.2826 metric ['0.9132']
+2022-12-12 10:58:07.755 | INFO     | src.models.train_model:trainloop:183 - Epoch 13 train 0.1239 test 0.2714 metric ['0.9100']
+2022-12-12 10:59:28.788 | INFO     | src.models.train_model:trainloop:183 - Epoch 14 train 0.1177 test 0.2739 metric ['0.9166']
+2022-12-12 11:00:55.763 | INFO     | src.models.train_model:trainloop:183 - Epoch 15 train 0.1057 test 0.2821 metric ['0.9170']
+2022-12-12 11:02:21.452 | INFO     | src.models.train_model:trainloop:183 - Epoch 16 train 0.1017 test 0.3261 metric ['0.9128']
+2022-12-12 11:03:44.531 | INFO     | src.models.train_model:trainloop:183 - Epoch 17 train 0.0971 test 0.2955 metric ['0.9171']
+2022-12-12 11:05:01.582 | INFO     | src.models.train_model:trainloop:183 - Epoch 18 train 0.0909 test 0.3096 metric ['0.9139']
+2022-12-12 11:06:18.843 | INFO     | src.models.train_model:trainloop:183 - Epoch 19 train 0.0849 test 0.3247 metric ['0.9102']
+2022-12-12 11:06:18.855 | INFO     | experiments_combine:run_experiment_runs:97 - Klaar, start tensorboard met commando: tensorboard --logdir=log/exp_runs2
+2022-12-14 09:11:55.492 | INFO     | __main__:main:25 - starting combine
+2022-12-14 09:13:44.993 | INFO     | __main__:main:25 - starting combine
+2022-12-14 09:13:53.299 | INFO     | data.data_tools:dir_add_timestamp:114 - Logging to log/codetest_mag_weg/AdamW_LR-1E-2_model1_/20221214-0913
+2022-12-14 09:14:24.918 | INFO     | models.train_model:trainloop:183 - Epoch 0 train 0.5563 test 0.4407 metric ['0.8356']
+2022-12-14 09:14:53.781 | INFO     | models.train_model:trainloop:183 - Epoch 1 train 0.3937 test 0.3863 metric ['0.8578']
+2022-12-14 09:15:26.842 | INFO     | models.train_model:trainloop:183 - Epoch 2 train 0.3533 test 0.3861 metric ['0.8662']
+2022-12-14 09:15:26.925 | INFO     | data.data_tools:dir_add_timestamp:114 - Logging to log/codetest_mag_weg/AdamW_LR-1E-2_model2_/20221214-0915
+2022-12-14 09:16:16.105 | INFO     | models.train_model:trainloop:183 - Epoch 0 train 0.6089 test 0.4507 metric ['0.8294']
+2022-12-14 09:17:09.727 | INFO     | models.train_model:trainloop:183 - Epoch 1 train 0.4194 test 0.4494 metric ['0.8315']
