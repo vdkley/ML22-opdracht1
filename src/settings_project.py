@@ -1,11 +1,8 @@
 from pathlib import Path
-from typing import Dict, List, Tuple
+from typing import Dict, List
 
-import numpy as np
 import torch.optim as optim
 from pydantic import BaseModel
-
-import settings_testmodels
 
 
 class Settings(BaseModel):
@@ -27,7 +24,8 @@ class Settings(BaseModel):
     test_learning_rates: List = [0.01, 0.001, 0.0001]
     test_kernal_sizes = [2]
 
-    # TODO: alle experimenten in één dict t.b.v. compacter en automatiseren in experiment.py
+    # TODO: alle experimenten in één dict t.b.v. compacter en automatiseren
+    # in experiment.py
     experiment_parameters: Dict = {
         "optimizers": {
             "AdamW": optim.AdamW,
@@ -45,7 +43,7 @@ class Settings(BaseModel):
             "1E-3": 0.001,
             "1E-4": 0.0001,
         },
-        "kernal_sizes": {"KS2": 2, "KS2": 3},
+        "kernal_sizes": {"KS2": 2, "KS3": 3},
     }
 
     experiment_parameters_combinations: Dict = {

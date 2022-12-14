@@ -21,7 +21,7 @@ def main(task: str, name: str) -> None:
 
     # learningrate_test.run_trainloop(presets)
 
-    if task == None:
+    if task is None:
         print("Select a taks: --task= options are: optimtest")
     else:
         logger.info(f"starting {task}")
@@ -33,9 +33,9 @@ def main(task: str, name: str) -> None:
         filtertest.run_trainloop(presets)
     if task == "ksize":
         kernelsizetest.run_trainloop(presets)
-    if task == "exp" and name == None:
+    if task == "exp" and name is None:
         print("start experiment by giving a name --name=")
-    if task == "exp" and name != None:
+    if task == "exp" and name is not None:
         experiments.run_experiment(presets, name)
     if task == "combine":
         experiments_combine.run_experiment(presets, name)
