@@ -2,15 +2,15 @@ from __future__ import annotations
 
 import random
 import shutil
+import zipfile
 from datetime import datetime
 from pathlib import Path
 from typing import Callable, Dict, Iterator, List, Optional, Sequence, Tuple, Union
 
 import numpy as np
+import requests
 import tensorflow as tf
 import torch
-import requests
-import zipfile
 from loguru import logger
 from torch.nn.utils.rnn import pad_sequence
 from tqdm import tqdm
@@ -59,6 +59,7 @@ def iter_valid_paths(path: Path, formats: List[str]) -> Tuple[Iterator, List[str
     # keeps only specified formats
     paths = (path for path in walk if path.suffix in formats)
     return paths, class_names
+
 
 def get_file(data_dir: Path, filename: Path, url: str, unzip: bool = True) -> None:
     response = requests.get(url, stream=True)

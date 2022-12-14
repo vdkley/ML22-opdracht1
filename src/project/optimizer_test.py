@@ -1,24 +1,27 @@
 import sys
+
 sys.path.insert(0, "../..")
 
+from pathlib import Path
+
+import gin
 import torch
 import torch.nn as nn
+from loguru import logger
+from torch import nn
+
 from data import make_dataset
 from models import train_model
-from pathlib import Path
 from settings_project import Settings
-import torch
-from torch import nn
-from loguru import logger
-import gin
+
 
 def run_trainloop(presets: Settings) -> None:
     """
-    Run een trainmodel in een loop met verschillende parameters 
+    Run een trainmodel in een loop met verschillende parameters
     """
- 
+
     datadir = Path("data/raw/")
-    train_dataloader, test_dataloader = make_dataset.get_MNIST(datadir, batch_size=64) 
+    train_dataloader, test_dataloader = make_dataset.get_MNIST(datadir, batch_size=64)
     x, y = next(iter(train_dataloader))
 
     # Get cpu or gpu device for training.
@@ -41,14 +44,14 @@ def run_trainloop(presets: Settings) -> None:
                 nn.ReLU(),
                 nn.MaxPool2d(kernel_size=2),
             )
-            
+
             self.dense = nn.Sequential(
                 nn.Flatten(),
                 nn.Linear(128, 64),
                 nn.ReLU(),
                 nn.Linear(64, 32),
                 nn.ReLU(),
-                nn.Linear(32, 10)
+                nn.Linear(32, 10),
             )
 
         def forward(self, x):
@@ -59,12 +62,13 @@ def run_trainloop(presets: Settings) -> None:
     model = CNN().to(device)
     print(model)
 
-
     count_parameters = train_model.count_parameters(model)
     logger.info(f"Model parameters {count_parameters}")
 
     import torch.optim as optim
+
     from models import metrics
+
     optimizer = optim.Adam
     loss_fn = torch.nn.CrossEntropyLoss()
     accuracy = metrics.Accuracy()
@@ -94,7 +98,9 @@ def run_trainloop(presets: Settings) -> None:
             eval_steps=len(test_dataloader),
         )
 
-    logger.info(f"Klaar, start tensorboard met commando: tensorboard --logdir={log_dir}")
+    logger.info(
+        f"Klaar, start tensorboard met commando: tensorboard --logdir={log_dir}"
+    )
 
     # commando starten tensorboard
     # tensorboard --logdir=log

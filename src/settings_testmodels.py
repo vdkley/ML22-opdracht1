@@ -17,7 +17,7 @@ class CNN_test1(nn.Module):
             nn.ReLU(),
             nn.MaxPool2d(kernel_size=2),
         )
-        
+
         self.dense = nn.Sequential(
             nn.Flatten(),
             nn.Linear(64, 32),
@@ -47,14 +47,14 @@ class CNN_test2(nn.Module):
             nn.ReLU(),
             nn.MaxPool2d(kernel_size=2),
         )
-        
+
         self.dense = nn.Sequential(
             nn.Flatten(),
             nn.Linear(128, 64),
             nn.ReLU(),
             nn.Linear(64, 32),
             nn.ReLU(),
-            nn.Linear(32, 10)
+            nn.Linear(32, 10),
         )
 
     def forward(self, x):
@@ -79,7 +79,7 @@ class CNN_test3(nn.Module):
             nn.ReLU(),
             nn.MaxPool2d(kernel_size=2),
         )
-        
+
         self.dense = nn.Sequential(
             nn.Flatten(),
             nn.Linear(512, 256),
@@ -90,11 +90,10 @@ class CNN_test3(nn.Module):
             nn.ReLU(),
             nn.Linear(64, 32),
             nn.ReLU(),
-            nn.Linear(32, 10)
+            nn.Linear(32, 10),
         )
 
     def forward(self, x):
         x = self.convolutions(x)
         logits = self.dense(x)
         return logits
-

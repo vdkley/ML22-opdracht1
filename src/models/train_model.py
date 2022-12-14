@@ -14,8 +14,8 @@ from ray import tune
 from torch.optim import Optimizer
 from torch.utils.data import DataLoader
 from torch.utils.tensorboard import SummaryWriter
-from torchvision.utils import make_grid
 from torchinfo import summary
+from torchvision.utils import make_grid
 from tqdm import tqdm
 
 from data import data_tools
