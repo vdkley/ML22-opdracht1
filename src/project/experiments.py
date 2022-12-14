@@ -36,7 +36,7 @@ def run_experiment(presets: Settings,name: str) -> None:
     """
     Run een trainmodel in een loop met verschillende parameters vanuit de settings
     """
-    log_dir_base_exp = "log/" + str(name)
+    log_dir_base_exp = "../log/" + str(name)
 
     gin.parse_config_file("model.gin")
     for optimizer_name, optimizer_algorithm in presets.test_optimizers.items():

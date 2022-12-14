@@ -40,7 +40,7 @@ def run_experiment(presets: Settings,name: str) -> None:
     Run een trainmodel in een loop met verschillende parameters vanuit de settings
     """
     gin.parse_config_file("model.gin")
-    log_dir_base_exp = "log/" + str(name)
+    log_dir_base_exp = "../log/" + str(name)
 
     keys, values = zip(*presets.experiment_parameters_combinations.items())
     experiment_combinations = [dict(zip(keys, v)) for v in itertools.product(*values)]
@@ -77,7 +77,7 @@ def run_experiment_runs(presets: Settings,name: str) -> None:
     Run een trainmodel in een loop met verschillende parameters vanuit de settings
     """
     gin.parse_config_file("model.gin")
-    log_dir_base_exp = "log/" + str(name)
+    log_dir_base_exp = "../log/" + str(name)
 
     for run_count, run in presets.experiments_runs.items():
         gin.bind_parameter("trainloop.epochs", run['epochs'])

@@ -908,3 +908,8 @@
 2022-12-14 09:15:26.925 | INFO     | data.data_tools:dir_add_timestamp:114 - Logging to log/codetest_mag_weg/AdamW_LR-1E-2_model2_/20221214-0915
 2022-12-14 09:16:16.105 | INFO     | models.train_model:trainloop:183 - Epoch 0 train 0.6089 test 0.4507 metric ['0.8294']
 2022-12-14 09:17:09.727 | INFO     | models.train_model:trainloop:183 - Epoch 1 train 0.4194 test 0.4494 metric ['0.8315']
+2022-12-14 09:27:00.026 | INFO     | __main__:main:25 - starting combine
+2022-12-14 09:27:01.707 | INFO     | data.data_tools:dir_add_timestamp:114 - Logging to log/test_code_mag_weg2/AdamW_LR-1E-2_model1_/20221214-0927
+2022-12-14 09:27:34.666 | INFO     | models.train_model:trainloop:183 - Epoch 0 train 0.5566 test 0.4262 metric ['0.8414']
+2022-12-14 09:31:04.035 | INFO     | __main__:main:25 - starting combine
+2022-12-14 09:31:04.441 | INFO     | data.data_tools:dir_add_timestamp:114 - Logging to ../log/test_code_mag_weg3/AdamW_LR-1E-2_model1_/20221214-0931

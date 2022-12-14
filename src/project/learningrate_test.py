@@ -32,7 +32,7 @@ def run_trainloop(presets: Settings) -> None:
         # new model for every test
         model = imagemodels.CNN().to(device)
 
-        log_dir = "log/learningrates/"
+        log_dir = "../log/learningrates/"
         model = train_model.trainloop(
             model=model,
             metrics=[accuracy],

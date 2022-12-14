@@ -79,7 +79,7 @@ def run_trainloop(presets: Settings) -> None:
         # new model for every optimizer test
         model = CNN().to(device)
 
-        log_dir = "log/" + str(optimizer_name) + "/"
+        log_dir = "../log/" + str(optimizer_name) + "/"
         model = train_model.trainloop(
             epochs=10,
             model=model,
