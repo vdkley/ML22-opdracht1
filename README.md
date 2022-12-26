@@ -103,7 +103,7 @@ Over het algemeen scoren de runs met optimizer SGD niet goed. Opmerkelijk is dat
 ![SDG remarks](images/combine_SGD_remarks.png)
 
 
-Je ziet hieronder dat na epoch 9 het model gaat overfitten. AdamW geeft hier de hoogste loss met de test set.
+AdamW geeft hier de hoogste loss met de test set. Je ziet hieronder wel dat ze allemaal na epoch 9 gaan overfitten. Model 3 bevat waarschijnlijk teveel parameters en kunnen daardoor gaan memoryseren, dus een simpeler model is waarschijnlijk beter met minder parameters of minder lang trainen. Een ander optie is een dropout laag toevoegen zodat parameters geen specialisten kunnen worden en gaan memoriseren.
 
 ![loss test en loss train](images/runs_loss_test_loss_train.png)
 
