@@ -92,3 +92,52 @@ class Settings(BaseModel):
             "model": "model3",
         },
     }
+
+
+    """
+    De Twee beste scorende gevonden door Yamo:
+    ==============================================================================
+    CNN.filter1 = 128
+    CNN.filter2 = 64
+    CNN.kernel_size = 3
+    CNN.num_classes = 10
+    # Parameters for trainloop:
+    # ==============================================================================
+    trainloop.epochs = 3
+    trainloop.learning_rate = 0.001
+    trainloop.loss_fn = @CrossEntropyLoss()
+    trainloop.optimizer = @Adam
+    ==============================================================================
+    CNN.filter1 = 32
+    CNN.filter2 = 32
+    CNN.kernel_size = 3
+    CNN.num_classes = 10
+    # Parameters for trainloop:
+    # ==============================================================================
+    trainloop.epochs = 3
+    trainloop.learning_rate = 0.001
+    trainloop.loss_fn = @CrossEntropyLoss()
+    trainloop.optimizer = @Adam
+    """
+    experiments_runs2: Dict = {
+        "run1": {
+            "run_name" : "Adam_F128F64_LR-1E-3",
+            "epochs": 20,
+            "filter1": 128,
+            "filter2": 64,
+            "kernel_size" : 3,
+            "learning_rate" : 0.001,
+            "optimizer": optim.Adam,
+        },
+        "run2": {
+            "run_name" : "Adam_F32F32_LR-1E-3",
+            "epochs": 20,
+            "filter1": 32,
+            "filter2": 32,
+            "kernel_size" : 3,
+            "learning_rate" : 0.001,
+            "optimizer": optim.Adam,
+        }
+    }
+
+
