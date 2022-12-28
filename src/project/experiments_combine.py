@@ -76,19 +76,21 @@ def run_experiment_runs(presets: Settings, name: str) -> None:
     """
     Run een trainmodel in een loop met verschillende parameters vanuit de settings
     """
-
-
+    device = "cuda" if torch.cuda.is_available() else "cpu"
     gin.parse_config_file("model.gin")
     log_dir_base_exp = "../log/" + str(name)
 
     for run_count, run in presets.experiments_runs2.items():
 
-        # print(type(run["epochs"]))
-        print(run.keys())
-
-        if "epochs" in run.keys():
-            print("epochs exits")
-        
+        if "model" in run.keys():
+            if run["model"] == "model1":
+                model = settings_testmodels.CNN_test1().to(device)
+            if run["model"] == "model2":
+                model = settings_testmodels.CNN_test2().to(device)
+            if run["model"] == "model3":
+                model = settings_testmodels.CNN_test3().to(device)
+        else:
+            model = imagemodels.CNN().to(device)
 
         if "epochs" in run.keys():
             gin.bind_parameter("trainloop.epochs", run["epochs"])
@@ -102,17 +104,6 @@ def run_experiment_runs(presets: Settings, name: str) -> None:
             gin.bind_parameter("CNN.filter2", run["filter2"])
         if "kernel_size" in run.keys():
             gin.bind_parameter("CNN.kernel_size", run["kernel_size"])
-
-        device = "cuda" if torch.cuda.is_available() else "cpu"
-        model = imagemodels.CNN().to(device)
-
-        # if "model" in run.keys():
-        #     if run["model"] == "model1":
-        #         model = settings_testmodels.CNN_test1()
-        #     if run["model"] == "model2":
-        #         model = settings_testmodels.CNN_test2()
-        #     if run["model"] == "model3":
-        #         model = settings_testmodels.CNN_test3()
 
         log_dir = log_dir_base_exp + "/" + str(run["run_name"]) + "/"
         run_model(log_dir, model)
