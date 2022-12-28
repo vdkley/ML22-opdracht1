@@ -109,6 +109,20 @@ AdamW geeft hier de hoogste loss met de test set. Je ziet hieronder wel dat ze a
 
 ![runs accuuracy](images/runs_accuracy.png)
 
+
+# Extra test runs aantal filters
+
+Na het testen met diverse aantal filters blijkt deze combinaties een goede score te geven en hebben we deze beiden over 20 epochs getrainde. 
+
+- filter1: 128 en filter2: 64
+- filter1: 32 en filter 2: 32
+
+![runs accuuracy](images/run_yamo_filters_tests.png)
+
+![runs accuuracy](images/run_yamo_filters_tests_loss.png)
+
+
+
 # ResNet testen en resultaten
 Als extra uitdaging hebben we ook nog een ResNet model aan de praat gekregen en hoopten op een geweldig resultaat. Helaas viel dat tegen. Waarschijnlijk is deze ResNet architectuur meer geschit voor grotere datasets met en meer labels.
 
