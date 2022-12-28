@@ -2,7 +2,7 @@
 
 ## Hoe de code te gebruiken
 
-Geef in settings.py aan welke combinaties je wilt uitproberen. De modellen (model1, model2, model3) bouw je op in het bestand settings_testmodels.py
+Geef in settings_project.py aan welke combinaties je wilt uitproberen. De modellen (model1, model2, model3) bouw je op in het bestand settings_testmodels.py
 
 ```
     experiment_parameters_combinations: Dict = {
@@ -112,14 +112,14 @@ AdamW geeft hier de hoogste loss met de test set. Je ziet hieronder wel dat ze a
 
 # Extra test runs aantal filters
 
-Na het testen met diverse aantal filters blijkt deze combinaties een goede score te geven en hebben we deze beiden over 20 epochs getrainde. 
+Na het testen met een divers aantal filter combinaties blijken deze combinaties een goede score te geven en hebben we deze twee combinaties over 20 epochs getraind. 
 
 - filter1: 128 en filter2: 64
 - filter1: 32 en filter 2: 32
 
-![runs accuuracy](images/run_yamo_filters_tests.png)
+![runs filter combi](images/run_yamo_filters_tests.png)
 
-![runs accuuracy](images/run_yamo_filters_tests_loss.png)
+![runs filter combi loss](images/run_yamo_filters_tests_loss.png)
 
 
 
