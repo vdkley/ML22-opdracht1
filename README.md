@@ -219,3 +219,12 @@ Params size (MB): 44.11
 Estimated Total Size (MB): 73.10
 ==========================================================================================
 ```
+
+
+# Conclusie
+
+In het licht van de bovengenoemde stappen kan er geconcludeerd dat een optimaal presterend model afhankelijk is van diverse factoren, te weten; 
+-	Modellen met optimizer Adam scoren goed met lage learningrates terwijl SGD gebaat is bij een hoge learning rate. 
+-	Verder valt het op dat de uitgeselecteerde modellen na 9 epochs gaan overfitten, dit kan voorkomen worden door onder andere het aantal parameters te verkleinen en of vroegtijdig te stoppen met trainen. Een simpeler model zou dus beter werken. Het toevoegen van een dropout laag om geen specialiseten te creëren, zou ook kunnen helpen. 
+-	Daarnaast valt het ook op dat een hoge aantal filters (tussen 128 en 16 filters) ook goed werken. Dit is een vrij logische uitkomst. Het model heeft op deze manier meer herkenningspunten om te identificeren om wat een object het gaat.
+-	Ten slotte, Het ResNet model heeft geen geweldige resultaten opgeleverd. Een mogelijke verklaring hiervoor is dat de architectuur meer past bij grote hoeveelheden datasets en geclassificeerde labels. Het Fashion MNIST is wellicht te eenvoudig voor dit model om goed te functioneren.
